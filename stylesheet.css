@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+}
+
+#startscreen {
+    background-image: url(baggrund1.jpg);
+    width: 100vw;
+    height: 56.25vw;
+    position: relative;
+}
+
+#intro {
+    position: absolute;
+}
+
+intro1 {
+    background-image: url();
+    width: ;
+    height: ;
+}
+
+intro2 {
+    background-image: url();
+    width: ;
+    height: ;
+}
+
+intro3 {
+    background-image: url();
+    width: ;
+    height: ;
+}
+
+intro4 {
+    background-image: url();
+    width: ;
+    height: ;
+}
+
+intro5 {
+    background-image: url();
+    width: ;
+    height: ;
+}
+
+startscreen_away {
+    animation: startscreen_away_kf 3s both 1;
+}
+
+@keyframes startscreen_away_kf {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.0;
+    }
+}
+
+#okBtn {
+    position: absolute;
+}
+
+okBtn_startpos {
+    display: none;
+}
+
+okBtn_trykpos {
+    bottom: 5%;
+    left: 48%;
+}
