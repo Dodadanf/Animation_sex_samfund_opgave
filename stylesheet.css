@@ -3,20 +3,63 @@ body {
 }
 
 #startscreen {
-    background-image: url(baggrund1.jpg);
+    background-image: url();
     width: 100vw;
     height: 56.25vw;
     position: relative;
 }
 
-#intro {
+startscreen_away {
+    animation: startscreen_away_kf 3s both 1;
+}
+
+@keyframes startscreen_away_kf {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.0;
+    }
+}
+
+#scene {
+    width: 100vw;
+    height: 56.25vw;
+    position: relative;
+}
+
+.scene1 {
+    background-image: url(baggrund1.jpg);
+    width: 100vw;
+    height: 56.25vw;
+}
+
+.scene2 {
+    background-image: url(baggrund2.png);
+    width: 100vw;
+    height: 56.25vw;
+}
+
+#introduktion {
     position: absolute;
 }
 
 intro1 {
-    background-image: url();
-    width: ;
-    height: ;
+    background-image: url(intro1.svg);
+    width: 30.63vw;
+    height: 11.81vw;
+    animation: intro1_kf 5s forwards 1;
+}
+
+@keyframes intro1_kf() {
+    0% {
+        right: 0%;
+        bottom: -40vw;
+    }
+    100% {
+        right: 0%;
+        bottom: 40vw;
+    }
 }
 
 intro2 {
@@ -43,17 +86,56 @@ intro5 {
     height: ;
 }
 
-startscreen_away {
-    animation: startscreen_away_kf 3s both 1;
+intro6 {
+    background-image: url();
+    width: ;
+    height: ;
 }
 
-@keyframes startscreen_away_kf {
-    0% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0.0;
-    }
+#instruktion {
+    position: absolute;
+}
+
+instru1 {
+    background-image: url();
+    width: ;
+    height: ;
+}
+
+instru2 {
+    background-image: url();
+    width: ;
+    height: ;
+}
+
+instru3 {
+    background-image: url();
+    width: ;
+    height: ;
+}
+
+instru4 {
+    background-image: url();
+    width: ;
+    height: ;
+}
+
+instru5 {
+    background-image: url();
+    width: ;
+    height: ;
+}
+
+instru6 {
+    background-image: url();
+    width: ;
+    height: ;
+}
+
+instru7 {
+    background-image: url();
+    width: ;
+    height: ;
 }
 
 #okBtn {

@@ -1,9 +1,11 @@
 $(window).on("load", instruktioner1);
 
 function instruktioner1() {
-    console.log("Skærm med navn loades, introduktion dukker op");
+    console.log("Skærm med navn loades, navnet fader væk og introduktion dukker op");
     $("#startscreen").addClass("startscreen_away");
-    $("#intro").addClass("intro1");
+    $("#scene").addClass("scene1");
+    $("#introduktion").addClass("intro1");
+    $("#instruktion").addClass("instru1");
     $("#okBtn").addClass("okBtn_trykpos");
     $("#okBtn").on("click", klikPaaObjekt);
 }
