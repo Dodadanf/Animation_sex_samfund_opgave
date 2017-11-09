@@ -1,4 +1,4 @@
-body {
+*body {
     margin: 0;
 }
 
@@ -9,7 +9,7 @@ body {
     position: relative;
 }
 
-startscreen_away {
+.startscreen_away {
     animation: startscreen_away_kf 3s both 1;
 }
 
@@ -42,9 +42,11 @@ startscreen_away {
 
 #introduktion {
     position: absolute;
+    width: 30.63vw;
+    height: 11.81vw;
 }
 
-intro1 {
+.intro1 {
     background-image: url(intro1.svg);
     width: 30.63vw;
     height: 11.81vw;
@@ -62,31 +64,31 @@ intro1 {
     }
 }
 
-intro2 {
+.intro2 {
     background-image: url();
     width: ;
     height: ;
 }
 
-intro3 {
+.intro3 {
     background-image: url();
     width: ;
     height: ;
 }
 
-intro4 {
+.intro4 {
     background-image: url();
     width: ;
     height: ;
 }
 
-intro5 {
+.intro5 {
     background-image: url();
     width: ;
     height: ;
 }
 
-intro6 {
+.intro6 {
     background-image: url();
     width: ;
     height: ;
@@ -96,43 +98,43 @@ intro6 {
     position: absolute;
 }
 
-instru1 {
+.instru1 {
     background-image: url();
     width: ;
     height: ;
 }
 
-instru2 {
+.instru2 {
     background-image: url();
     width: ;
     height: ;
 }
 
-instru3 {
+.instru3 {
     background-image: url();
     width: ;
     height: ;
 }
 
-instru4 {
+.instru4 {
     background-image: url();
     width: ;
     height: ;
 }
 
-instru5 {
+.instru5 {
     background-image: url();
     width: ;
     height: ;
 }
 
-instru6 {
+.instru6 {
     background-image: url();
     width: ;
     height: ;
 }
 
-instru7 {
+.instru7 {
     background-image: url();
     width: ;
     height: ;
@@ -142,11 +144,11 @@ instru7 {
     position: absolute;
 }
 
-okBtn_startpos {
+.okBtn_startpos {
     display: none;
 }
 
-okBtn_trykpos {
+.okBtn_trykpos {
     bottom: 5%;
     left: 48%;
 }
