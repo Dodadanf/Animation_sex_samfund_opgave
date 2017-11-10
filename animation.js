@@ -16,6 +16,8 @@ function klikPaaObjekt() {
     $("#tekst5").removeClass("instru1");
 
     $("#").on("", instruktioner2);
+
+    $("#objekt1").addClass("objekt1_start_pos");
 }
 
 function instruktioner2() {
