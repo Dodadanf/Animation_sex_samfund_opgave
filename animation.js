@@ -4,8 +4,8 @@ function instruktioner1() {
     console.log("Skærm med navn loades, navnet fader væk og introduktion dukker op");
     $("#startscreen").addClass("startscreen_away");
     $("#scene").addClass("scene1");
-    $("#introduktion").addClass("intro1");
-    $("#instruktion").addClass("instru1");
+    $("#tekst4").addClass("intro1");
+    $("#tekst5").addClass("instru1");
     $("").on("", klikPaaObjekt);
 }
 

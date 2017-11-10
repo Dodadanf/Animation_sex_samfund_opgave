@@ -7,6 +7,7 @@ body {
     width: 100vw;
     height: 56.25vw;
     position: relative;
+    z-index: 4;
 }
 
 .startscreen_away {
@@ -100,6 +101,8 @@ body {
     position: absolute;
     width: 30.63vw;
     height: 56.25vw;
+    top: 0%;
+    right: 0%;
 }
 
 .intro1 {
@@ -111,35 +114,40 @@ body {
     position: absolute;
     width: 30.63vw;
     height: 11.25vw;
+    top: 0%;
 }
 
 #tekst2 {
     position: absolute;
     width: 30.63vw;
     height: 11.25vw;
+    top: 20%;
 }
 
 #tekst3 {
     position: absolute;
     width: 30.63vw;
     height: 11.25vw;
+    top: 40%;
 }
 
 #tekst4 {
     position: absolute;
     width: 30.63vw;
     height: 11.25vw;
+    top: 60%;
 }
 
 #tekst5 {
     position: absolute;
     width: 30.63vw;
     height: 11.25vw;
+    top: 80%;
 }
 
 .intro1 {
     background-image: url(tekst_bokse/intro1.svg);
-    background-size: 98%;
+    background-size: 90%;
     background-repeat: no-repeat;
     width: 30.63vw;
     height: 11.81vw;
@@ -147,84 +155,129 @@ body {
 
 .intro2 {
     background-image: url(tekst_bokse/intro2.svg);
-    width: ;
-    height: ;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    width: 30.63vw;
+    height: 11.81vw;
 }
 
 .intro3 {
     background-image: url(tekst_bokse/intro3.svg);
-    width: ;
-    height: ;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    width: 30.63vw;
+    height: 11.81vw;
 }
 
 .intro4 {
     background-image: url(tekst_bokse/intro4.svg);
-    width: ;
-    height: ;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    width: 30.63vw;
+    height: 11.81vw;
 }
 
 .intro5 {
     background-image: url(tekst_bokse/intro5.svg);
-    width: ;
-    height: ;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    width: 30.63vw;
+    height: 11.81vw;
 }
 
 .intro6 {
     background-image: url(tekst_bokse/intro6.svg);
-    width: ;
-    height: ;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    width: 30.63vw;
+    height: 11.81vw;
 }
 
 .intro7 {
     background-image: url(tekst_bokse/intro7.svg);
-    width: ;
-    height: ;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    width: 30.63vw;
+    height: 11.81vw;
 }
 
 .instru1 {
     background-image: url(tekst_bokse/instruk1.svg);
+<<<<<<< HEAD
+=======
+    background-size: 90%;
+    background-repeat: no-repeat;
+>>>>>>> origin/master
     width: 30.63vw;
-    height: 9.38vw;
-    right: 1%;
-    bottom: 2vw;
+    height: 11.81vw;
 }
 
 .instru2 {
-    background-image: url();
-    width: ;
-    height: ;
+    background-image: url(tekst_bokse/instruk2.svg);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    width: 30.63vw;
+    height: 11.81vw;
 }
 
 .instru3 {
-    background-image: url();
-    width: ;
-    height: ;
+    background-image: url(tekst_bokse/instruk3.svg);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    width: 30.63vw;
+    height: 11.81vw;
 }
 
 .instru4 {
-    background-image: url();
-    width: ;
-    height: ;
+    background-image: url(tekst_bokse/instruk4.svg);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    width: 30.63vw;
+    height: 11.81vw;
 }
 
 .instru5 {
-    background-image: url();
-    width: ;
-    height: ;
+    background-image: url(tekst_bokse/instruk5.svg);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    width: 30.63vw;
+    height: 11.81vw;
 }
 
 .instru6 {
-    background-image: url();
-    width: ;
-    height: ;
+    background-image: url(tekst_bokse/instruk6.svg);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    width: 30.63vw;
+    height: 11.81vw;
 }
 
 .instru7 {
-    background-image: url();
-    width: ;
-    height: ;
+    background-image: url(tekst_bokse/instruk7.svg);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    width: 30.63vw;
+    height: 11.81vw;
 }
 
+<<<<<<< HEAD
 .svarja {}
 
 .svarnej {}
+=======
+.svarja {
+    background-image: url(tekst_bokse/JA.svg);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    width: 30.63vw;
+    height: 11.81vw;
+}
+
+.svarnej {
+    background-image: url(tekst_bokse/NEJ.svg);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    width: 30.63vw;
+    height: 11.81vw;
+}
+>>>>>>> origin/master
