@@ -25,7 +25,7 @@ function klikPaaObjekt() {
     $("#tekst4").removeClass("intro1");
     $("#tekst5").removeClass("instru1");
 
-<<<<<<< HEAD
+
     $(this).hide();
     antalObjekter++;
 
@@ -41,18 +41,18 @@ function klikPaaObjekt() {
 $("#").on("", instruktioner2);
 
 $("#objekt1").addClass("objekt1_start_pos");
-=======
-    $("#objekt1").addClass("objekt1_pos_room");
-    $("#objekt2").addClass("objekt2_pos_room");
-    $("#objekt3").addClass("objekt3_pos_room");
-    $("#objekt4").addClass("objekt4_pos_room");
-    $("#objekt5").addClass("objekt5_pos_room");
-    $("#objekt6").addClass("objekt6_pos_room");
 
-    $("#").on("", instruktioner2);
+$("#objekt1").addClass("objekt1_pos_room");
+$("#objekt2").addClass("objekt2_pos_room");
+$("#objekt3").addClass("objekt3_pos_room");
+$("#objekt4").addClass("objekt4_pos_room");
+$("#objekt5").addClass("objekt5_pos_room");
+$("#objekt6").addClass("objekt6_pos_room");
+
+$("#").on("", instruktioner2);
 
 
->>>>>>> origin/master
+
 }
 
 function instruktioner2() {
