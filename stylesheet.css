@@ -3,14 +3,14 @@ body {
 }
 
 #startscreen {
-    background-image: url();
+    background-image: url(startscreen.png);
     width: 100vw;
     height: 56.25vw;
     position: relative;
 }
 
 .startscreen_away {
-    animation: startscreen_away_kf 4s both 1;
+    animation: startscreen_away_kf 8s both 1;
 }
 
 @keyframes startscreen_away_kf {
@@ -29,6 +29,7 @@ body {
     width: 100vw;
     height: 56.25vw;
     position: relative;
+    overflow: hidden;
 }
 
 .scene1 {
@@ -43,72 +44,84 @@ body {
     height: 56.25vw;
 }
 
-#introduktion {
+#tekst {
     position: absolute;
     width: 30.63vw;
-    height: 11.81vw;
+    height: 56.25vw;
+}
+
+#tekst1 {
+    position: absolute;
+    width: 30.63vw;
+    height: 11.25vw;
+}
+
+#tekst2 {
+    position: absolute;
+    width: 30.63vw;
+    height: 11.25vw;
+}
+
+#tekst3 {
+    position: absolute;
+    width: 30.63vw;
+    height: 11.25vw;
+}
+
+#tekst4 {
+    position: absolute;
+    width: 30.63vw;
+    height: 11.25vw;
+}
+
+#tekst5 {
+    position: absolute;
+    width: 30.63vw;
+    height: 11.25vw;
 }
 
 .intro1 {
-    background-image: url(intro1.svg);
+    background-image: url(tekst_bokse/intro1.svg);
+    background-size: 98%;
+    background-repeat: no-repeat;
     width: 30.63vw;
     height: 11.81vw;
-    right: 1%;
-    bottom: 15vw;
-    animation: intro1_kf 2s both 1;
-}
-
-@keyframes intro1_kf() {
-    0% {
-        right: 0%;
-        bottom: -20vw;
-    }
-    100% {
-        right: 0%;
-        bottom: 15vw;
-    }
 }
 
 .intro2 {
-    background-image: url();
+    background-image: url(tekst_bokse/intro2.svg);
     width: ;
     height: ;
 }
 
 .intro3 {
-    background-image: url();
+    background-image: url(tekst_bokse/intro3.svg);
     width: ;
     height: ;
 }
 
 .intro4 {
-    background-image: url();
+    background-image: url(tekst_bokse/intro4.svg);
     width: ;
     height: ;
 }
 
 .intro5 {
-    background-image: url();
+    background-image: url(tekst_bokse/intro5.svg);
     width: ;
     height: ;
 }
 
 .intro6 {
-    background-image: url();
+    background-image: url(tekst_bokse/intro6.svg);
     width: ;
     height: ;
 }
 
 .intro7 {
-    background-image: url();
+    background-image: url(tekst_bokse/intro7.svg);
     width: ;
     height: ;
-}
-
-#instruktion {
-    position: absolute;
-    width: 30.63vw;
-    height: 9.38vw;
 }
 
 .instru1 {
