@@ -212,13 +212,10 @@ body {
 
 .instru1 {
     background-image: url(tekst_bokse/instruk1.svg);
-    <<<<<<< HEAD=======background-size: 90%;
+    background-size: 90%;
     background-repeat: no-repeat;
-<<<<<<< HEAD
-    >>>>>>>origin/master width: 30.63vw;
-=======
-    > > > > > > > origin/master width: 30.63vw;
->>>>>>> origin/master
+    width: 30.63vw;
+    width: 30.63vw;
     height: 11.81vw;
 }
 
@@ -270,11 +267,7 @@ body {
     height: 11.81vw;
 }
 
-<<<<<<< HEAD .svarja {}
-
-.svarnej {}
-
-=======.svarja {
+.svarja {
     background-image: url(tekst_bokse/JA.svg);
     background-size: 90%;
     background-repeat: no-repeat;
@@ -289,9 +282,3 @@ body {
     width: 30.63vw;
     height: 11.81vw;
 }
-
-<<<<<<< HEAD
->>>>>>>origin/master
-=======
-> > > > > > > origin/master
->>>>>>> origin/master
