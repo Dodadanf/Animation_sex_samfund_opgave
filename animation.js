@@ -6,12 +6,15 @@ function instruktioner1() {
     $("#scene").addClass("scene1");
     $("#tekst4").addClass("intro1");
     $("#tekst5").addClass("instru1");
-    $("").on("", klikPaaObjekt);
+    $("#taske").on("animationend", klikPaaObjekt);
 }
 
 function klikPaaObjekt() {
-    console.log("OK klikkes, objekter findes og samles");
-    $("#").off("", klikPaaObjekt);
+    console.log("Objekter findes og samles");
+    $("#taske").off("animationend", klikPaaObjekt);
+    $("#tekst4").removeClass("intro1");
+    $("#tekst5").removeClass("instru1");
+
     $("#").on("", instruktioner2);
 }
 
