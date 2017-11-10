@@ -73,7 +73,11 @@ body {
     top: 40vw;
 }
 
-.objekt1_pos_room {}
+.objekt1_pos_room {
+    background-size: 100%;
+    left: 2vw;
+    top: 30vw;
+}
 
 #objekt2 {
     background-image: url(objekter/objekt_gum.svg);
@@ -88,7 +92,11 @@ body {
     top: 40vw;
 }
 
-.objekt2_pos_room {}
+.objekt2_pos_room {
+    background-size: 100%;
+    left: 3vw;
+    top: 40vw;
+}
 
 #objekt3 {
     background-image: url(objekter/objekt_iphone.svg);
@@ -103,7 +111,11 @@ body {
     top: 40vw;
 }
 
-.objekt3_pos_room {}
+.objekt3_pos_room {
+    background-size: 100%;
+    left: 93vw;
+    top: 3vw;
+}
 
 #objekt4 {
     background-image: url(objekter/objekt_penalhus.svg);
@@ -118,7 +130,11 @@ body {
     top: 40vw;
 }
 
-.objekt4_pos_room {}
+.objekt4_pos_room {
+    background-size: 100%;
+    left: 70vw;
+    top: 40vw;
+}
 
 #objekt5 {
     background-image: url(objekter/objekt_soda.svg);
@@ -133,7 +149,11 @@ body {
     top: 40vw;
 }
 
-.objekt5_pos_room {}
+.objekt5_pos_room {
+    background-size: 100%;
+    left: 2vw;
+    top: 35vw;
+}
 
 #objekt6 {
     background-image: url(objekter/objekt_sokker.svg);
@@ -148,7 +168,11 @@ body {
     top: 40vw;
 }
 
-.objekt6_pos_room {}
+.objekt6_pos_room {
+    background-size: 100%;
+    left: 60vw;
+    top: 30vw;
+}
 
 @keyframes puls_kf {
     0% {
