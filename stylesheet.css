@@ -79,6 +79,14 @@ body {
     top: 30vw;
 }
 
+.objekt1_pos_taske {
+    background-size: 60%;
+    background-repeat: no-repeat;
+    left: 31vw;
+    top: 40vw;
+    z-index: 5;
+}
+
 #objekt2 {
     background-image: url(objekter/objekt_gum.svg);
     position: absolute;
@@ -96,6 +104,14 @@ body {
     background-size: 100%;
     left: 3vw;
     top: 40vw;
+}
+
+.objekt2_pos_taske {
+    background-size: 60%;
+    background-repeat: no-repeat;
+    left: 37vw;
+    top: 47vw;
+    z-index: 5;
 }
 
 #objekt3 {
@@ -117,6 +133,14 @@ body {
     top: 3vw;
 }
 
+.objekt3_pos_taske {
+    background-size: 70%;
+    background-repeat: no-repeat;
+    left: 40vw;
+    top: 40vw;
+    z-index: 5;
+}
+
 #objekt4 {
     background-image: url(objekter/objekt_penalhus.svg);
     position: absolute;
@@ -134,6 +158,14 @@ body {
     background-size: 100%;
     left: 70vw;
     top: 40vw;
+}
+
+.objekt4_pos_taske {
+    background-size: 70%;
+    background-repeat: no-repeat;
+    left: 40vw;
+    top: 46vw;
+    z-index: 5;
 }
 
 #objekt5 {
@@ -155,6 +187,14 @@ body {
     top: 35vw;
 }
 
+.objekt5_pos_taske {
+    background-size: 70%;
+    background-repeat: no-repeat;
+    left: 43vw;
+    top: 41vw;
+    z-index: 5;
+}
+
 #objekt6 {
     background-image: url(objekter/objekt_sokker.svg);
     position: absolute;
@@ -172,6 +212,14 @@ body {
     background-size: 100%;
     left: 60vw;
     top: 30vw;
+}
+
+.objekt6_pos_taske {
+    background-size: 70%;
+    background-repeat: no-repeat;
+    left: 47vw;
+    top: 40vw;
+    z-index: 5;
 }
 
 .scene2 {
