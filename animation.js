@@ -63,7 +63,7 @@ function instruktioner2() {
 
     console.log("Objekter fundet og samlet");
 
-    console.log("Objekter fundet og samlet"); <<
+    console.log("Objekter fundet og samlet");
 
     $("#").off("", instruktioner2);
     $("#").on("", instruktioner3);
