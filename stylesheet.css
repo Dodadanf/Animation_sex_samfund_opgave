@@ -50,7 +50,7 @@ body {
 }
 
 .intro1 {
-    background-image: url(intro1.svg);
+    background-image: url(tekst_bokse/intro1.svg);
     width: 30.63vw;
     height: 11.81vw;
     right: 1%;
@@ -112,7 +112,7 @@ body {
 }
 
 .instru1 {
-    background-image: url(instruk1.svg);
+    background-image: url(tekst_bokse/instruk1.svg);
     width: 30.63vw;
     height: 9.38vw;
     right: 1%;
