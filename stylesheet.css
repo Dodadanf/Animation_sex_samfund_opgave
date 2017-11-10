@@ -3,14 +3,14 @@ body {
 }
 
 #startscreen {
-    background-image: url();
+    background-image: url(startscreen.png);
     width: 100vw;
     height: 56.25vw;
     position: relative;
 }
 
 .startscreen_away {
-    animation: startscreen_away_kf 4s both 1;
+    animation: startscreen_away_kf 8s both 1;
 }
 
 @keyframes startscreen_away_kf {
@@ -29,6 +29,7 @@ body {
     width: 100vw;
     height: 56.25vw;
     position: relative;
+    overflow: hidden;
 }
 
 .scene1 {
@@ -37,126 +38,192 @@ body {
     height: 56.25vw;
 }
 
+/*********** Objekter på værelse ***********/
+
+#taske {
+    background-image: url(objekter/objekt_taske.svg);
+    position: absolute;
+    width: 51vw;
+    height: 31.5vw;
+}
+
+#objekt1 {
+    background-image: url(objekter/objekt_bog.svg);
+    position: absolute;
+    width: 17.25vw;
+    height: 12vw;
+}
+
+#objekt2 {
+    background-image: url(objekter/objekt_gum.svg);
+    position: absolute;
+    width: ;
+    height: ;
+}
+
+#objekt3 {
+    background-image: url(objekter/objekt_iphone.svg);
+    position: absolute;
+    width: ;
+    height: ;
+}
+
+#objekt4 {
+    background-image: url(objekter/objekt_penalhus.svg);
+    position: absolute;
+    width: ;
+    height: ;
+}
+
+#objekt5 {
+    background-image: url(objekter/objekt_soda.svg);
+    position: absolute;
+    width: ;
+    height: ;
+}
+
+#objekt6 {
+    background-image: url(objekter/objekt_sokker.svg);
+    position: absolute;
+    width: ;
+    height: ;
+}
+
+
 .scene2 {
     background-image: url(baggrund2.png);
     width: 100vw;
     height: 56.25vw;
 }
 
-#introduktion {
+#tekst {
     position: absolute;
     width: 30.63vw;
-    height: 11.81vw;
+    height: 56.25vw;
 }
 
-.intro1 {
+<<<<<<< HEAD .intro1 {
     background-image: url(tekst_bokse/intro1.svg);
-    width: 30.63vw;
-    height: 11.81vw;
-    right: 1%;
-    bottom: 15vw;
-    animation: intro1_kf 2s both 1;
-}
-
-@keyframes intro1_kf() {
-    0% {
-        right: 0%;
-        bottom: -20vw;
+    =======#tekst1 {
+        position: absolute;
+        > > > > > > > origin/master width: 30.63vw;
+        height: 11.25vw;
     }
-    100% {
-        right: 0%;
-        bottom: 15vw;
+
+    #tekst2 {
+        position: absolute;
+        width: 30.63vw;
+        height: 11.25vw;
     }
-}
 
-.intro2 {
-    background-image: url();
-    width: ;
-    height: ;
-}
+    #tekst3 {
+        position: absolute;
+        width: 30.63vw;
+        height: 11.25vw;
+    }
 
-.intro3 {
-    background-image: url();
-    width: ;
-    height: ;
-}
+    #tekst4 {
+        position: absolute;
+        width: 30.63vw;
+        height: 11.25vw;
+    }
 
-.intro4 {
-    background-image: url();
-    width: ;
-    height: ;
-}
+    #tekst5 {
+        position: absolute;
+        width: 30.63vw;
+        height: 11.25vw;
+    }
 
-.intro5 {
-    background-image: url();
-    width: ;
-    height: ;
-}
+    .intro1 {
+        background-image: url(tekst_bokse/intro1.svg);
+        background-size: 98%;
+        background-repeat: no-repeat;
+        width: 30.63vw;
+        height: 11.81vw;
+    }
 
-.intro6 {
-    background-image: url();
-    width: ;
-    height: ;
-}
+    .intro2 {
+        background-image: url(tekst_bokse/intro2.svg);
+        width: ;
+        height: ;
+    }
 
-.intro7 {
-    background-image: url();
-    width: ;
-    height: ;
-}
+    .intro3 {
+        background-image: url(tekst_bokse/intro3.svg);
+        width: ;
+        height: ;
+    }
 
-#instruktion {
-    position: absolute;
-    width: 30.63vw;
-    height: 9.38vw;
-}
+    .intro4 {
+        background-image: url(tekst_bokse/intro4.svg);
+        width: ;
+        height: ;
+    }
 
-.instru1 {
-    background-image: url(tekst_bokse/instruk1.svg);
-    width: 30.63vw;
-    height: 9.38vw;
-    right: 1%;
-    bottom: 2vw;
-}
+    .intro5 {
+        background-image: url(tekst_bokse/intro5.svg);
+        width: ;
+        height: ;
+    }
 
-.instru2 {
-    background-image: url();
-    width: ;
-    height: ;
-}
+    .intro6 {
+        background-image: url(tekst_bokse/intro6.svg);
+        width: ;
+        height: ;
+    }
 
-.instru3 {
-    background-image: url();
-    width: ;
-    height: ;
-}
+    .intro7 {
+        background-image: url(tekst_bokse/intro7.svg);
+        width: ;
+        height: ;
+    }
 
-.instru4 {
-    background-image: url();
-    width: ;
-    height: ;
-}
+    .instru1 {
+        background-image: url(tekst_bokse/instruk1.svg);
+        width: 30.63vw;
+        height: 9.38vw;
+        right: 1%;
+        bottom: 2vw;
+    }
 
-.instru5 {
-    background-image: url();
-    width: ;
-    height: ;
-}
+    .instru2 {
+        background-image: url();
+        width: ;
+        height: ;
+    }
 
-.instru6 {
-    background-image: url();
-    width: ;
-    height: ;
-}
+    .instru3 {
+        background-image: url();
+        width: ;
+        height: ;
+    }
 
-.instru7 {
-    background-image: url();
-    width: ;
-    height: ;
-}
+    .instru4 {
+        background-image: url();
+        width: ;
+        height: ;
+    }
 
-.svarja {}
+    .instru5 {
+        background-image: url();
+        width: ;
+        height: ;
+    }
 
-.svarnej {}
+    .instru6 {
+        background-image: url();
+        width: ;
+        height: ;
+    }
 
-$ git config --global core.excludesfile~/.gitignore $ echo .DS_Store>>~/.gitignore
+    .instru7 {
+        background-image: url();
+        width: ;
+        height: ;
+    }
+
+    .svarja {}
+
+    .svarnej {}
+
+    $ git config --global core.excludesfile ~ /.gitignore $ echo .DS_Store > > ~ /.gitignore
