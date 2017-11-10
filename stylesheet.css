@@ -102,126 +102,129 @@ body {
     height: 56.25vw;
 }
 
-<<<<<<< HEAD .intro1 {
+.intro1 {
     background-image: url(tekst_bokse/intro1.svg);
-    =======#tekst1 {
-        position: absolute;
-        > > > > > > > origin/master width: 30.63vw;
-        height: 11.25vw;
-    }
+}
 
-    #tekst2 {
-        position: absolute;
-        width: 30.63vw;
-        height: 11.25vw;
-    }
 
-    #tekst3 {
-        position: absolute;
-        width: 30.63vw;
-        height: 11.25vw;
-    }
+#tekst1 {
+    position: absolute;
+    width: 30.63vw;
+    height: 11.25vw;
+}
 
-    #tekst4 {
-        position: absolute;
-        width: 30.63vw;
-        height: 11.25vw;
-    }
+#tekst2 {
+    position: absolute;
+    width: 30.63vw;
+    height: 11.25vw;
+}
 
-    #tekst5 {
-        position: absolute;
-        width: 30.63vw;
-        height: 11.25vw;
-    }
+#tekst3 {
+    position: absolute;
+    width: 30.63vw;
+    height: 11.25vw;
+}
 
-    .intro1 {
-        background-image: url(tekst_bokse/intro1.svg);
-        background-size: 98%;
-        background-repeat: no-repeat;
-        width: 30.63vw;
-        height: 11.81vw;
-    }
+#tekst4 {
+    position: absolute;
+    width: 30.63vw;
+    height: 11.25vw;
+}
 
-    .intro2 {
-        background-image: url(tekst_bokse/intro2.svg);
-        width: ;
-        height: ;
-    }
+#tekst5 {
+    position: absolute;
+    width: 30.63vw;
+    height: 11.25vw;
+}
 
-    .intro3 {
-        background-image: url(tekst_bokse/intro3.svg);
-        width: ;
-        height: ;
-    }
+.intro1 {
+    background-image: url(tekst_bokse/intro1.svg);
+    background-size: 98%;
+    background-repeat: no-repeat;
+    width: 30.63vw;
+    height: 11.81vw;
+}
 
-    .intro4 {
-        background-image: url(tekst_bokse/intro4.svg);
-        width: ;
-        height: ;
-    }
+.intro2 {
+    background-image: url(tekst_bokse/intro2.svg);
+    width: ;
+    height: ;
+}
 
-    .intro5 {
-        background-image: url(tekst_bokse/intro5.svg);
-        width: ;
-        height: ;
-    }
+.intro3 {
+    background-image: url(tekst_bokse/intro3.svg);
+    width: ;
+    height: ;
+}
 
-    .intro6 {
-        background-image: url(tekst_bokse/intro6.svg);
-        width: ;
-        height: ;
-    }
+.intro4 {
+    background-image: url(tekst_bokse/intro4.svg);
+    width: ;
+    height: ;
+}
 
-    .intro7 {
-        background-image: url(tekst_bokse/intro7.svg);
-        width: ;
-        height: ;
-    }
+.intro5 {
+    background-image: url(tekst_bokse/intro5.svg);
+    width: ;
+    height: ;
+}
 
-    .instru1 {
-        background-image: url(tekst_bokse/instruk1.svg);
-        width: 30.63vw;
-        height: 9.38vw;
-        right: 1%;
-        bottom: 2vw;
-    }
+.intro6 {
+    background-image: url(tekst_bokse/intro6.svg);
+    width: ;
+    height: ;
+}
 
-    .instru2 {
-        background-image: url();
-        width: ;
-        height: ;
-    }
+.intro7 {
+    background-image: url(tekst_bokse/intro7.svg);
+    width: ;
+    height: ;
+}
 
-    .instru3 {
-        background-image: url();
-        width: ;
-        height: ;
-    }
+.instru1 {
+    background-image: url(tekst_bokse/instruk1.svg);
+    width: 30.63vw;
+    height: 9.38vw;
+    right: 1%;
+    bottom: 2vw;
+}
 
-    .instru4 {
-        background-image: url();
-        width: ;
-        height: ;
-    }
+.instru2 {
+    background-image: url();
+    width: ;
+    height: ;
+}
 
-    .instru5 {
-        background-image: url();
-        width: ;
-        height: ;
-    }
+.instru3 {
+    background-image: url();
+    width: ;
+    height: ;
+}
 
-    .instru6 {
-        background-image: url();
-        width: ;
-        height: ;
-    }
+.instru4 {
+    background-image: url();
+    width: ;
+    height: ;
+}
 
-    .instru7 {
-        background-image: url();
-        width: ;
-        height: ;
-    }
+.instru5 {
+    background-image: url();
+    width: ;
+    height: ;
+}
 
-    .svarja {}
+.instru6 {
+    background-image: url();
+    width: ;
+    height: ;
+}
 
-    .svarnej {}
+.instru7 {
+    background-image: url();
+    width: ;
+    height: ;
+}
+
+.svarja {}
+
+.svarnej {}
