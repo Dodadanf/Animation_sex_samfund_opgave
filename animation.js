@@ -7,6 +7,13 @@ function instruktioner1() {
     $("#tekst4").addClass("intro1");
     $("#tekst5").addClass("instru1");
     $("#taske").on("animationend", klikPaaObjekt);
+
+    $("#objekt1").addClass("objekt1_start_pos");
+    $("#objekt2").addClass("objekt2_start_pos");
+    $("#objekt3").addClass("objekt3_start_pos");
+    $("#objekt4").addClass("objekt4_start_pos");
+    $("#objekt5").addClass("objekt5_start_pos");
+    $("#objekt6").addClass("objekt6_start_pos");
 }
 
 function klikPaaObjekt() {
@@ -15,9 +22,16 @@ function klikPaaObjekt() {
     $("#tekst4").removeClass("intro1");
     $("#tekst5").removeClass("instru1");
 
+    $("#objekt1").addClass("objekt1_pos_room");
+    $("#objekt2").addClass("objekt2_pos_room");
+    $("#objekt3").addClass("objekt3_pos_room");
+    $("#objekt4").addClass("objekt4_pos_room");
+    $("#objekt5").addClass("objekt5_pos_room");
+    $("#objekt6").addClass("objekt6_pos_room");
+
     $("#").on("", instruktioner2);
 
-    $("#objekt1").addClass("objekt1_start_pos");
+
 }
 
 function instruktioner2() {
