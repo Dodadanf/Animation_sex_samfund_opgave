@@ -58,36 +58,36 @@ body {
 #objekt2 {
     background-image: url(objekter/objekt_gum.svg);
     position: absolute;
-    width: ;
-    height: ;
+    width: 6vw;
+    height: 6vw;
 }
 
 #objekt3 {
     background-image: url(objekter/objekt_iphone.svg);
     position: absolute;
-    width: ;
-    height: ;
+    width: 6vw;
+    height: 6.25vw;
 }
 
 #objekt4 {
     background-image: url(objekter/objekt_penalhus.svg);
     position: absolute;
-    width: ;
-    height: ;
+    width: 13vw;
+    height: 7vw;
 }
 
 #objekt5 {
     background-image: url(objekter/objekt_soda.svg);
     position: absolute;
-    width: ;
-    height: ;
+    width: 6.2vw;
+    height: 6.25vw;
 }
 
 #objekt6 {
     background-image: url(objekter/objekt_sokker.svg);
     position: absolute;
-    width: ;
-    height: ;
+    width: 11.4vw;
+    height: 13.2vw;
 }
 
 
@@ -203,12 +203,9 @@ body {
 
 .instru1 {
     background-image: url(tekst_bokse/instruk1.svg);
-<<<<<<< HEAD
-=======
-    background-size: 90%;
+    <<<<<<< HEAD=======background-size: 90%;
     background-repeat: no-repeat;
->>>>>>> origin/master
-    width: 30.63vw;
+    > > > > > > > origin/master width: 30.63vw;
     height: 11.81vw;
 }
 
@@ -260,12 +257,11 @@ body {
     height: 11.81vw;
 }
 
-<<<<<<< HEAD
-.svarja {}
+<<<<<<< HEAD .svarja {}
 
 .svarnej {}
-=======
-.svarja {
+
+=======.svarja {
     background-image: url(tekst_bokse/JA.svg);
     background-size: 90%;
     background-repeat: no-repeat;
@@ -280,4 +276,5 @@ body {
     width: 30.63vw;
     height: 11.81vw;
 }
->>>>>>> origin/master
+
+> > > > > > > origin/master
