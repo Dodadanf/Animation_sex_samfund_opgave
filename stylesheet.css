@@ -38,6 +38,7 @@
         width: 100vw;
         height: 56.25vw;
     }
+
     /*********** Objekter på værelse ***********/
 
     #taske {
@@ -229,11 +230,62 @@
         }
     }
 
+    /************** Skolegård *************/
+
     .scene2 {
         background-image: url(baggrund2.png);
         width: 100vw;
         height: 56.25vw;
     }
+
+    #karakter1 {
+        position: absolute;
+        height: 75vw;
+        width: 37.5vw;
+
+
+    }
+
+    #karakter1sprite {
+        background-image: url(karakter/ansigt_malik.svg);
+        height: 100%;
+        width: 100%;
+
+    }
+
+    #karakter2 {
+        position: absolute;
+        height: 75vw;
+        width: 37.7vw;
+    }
+
+    #karakter2sprite {
+        background-image: url(karakter/ansigt_marcus.svg);
+        height: 100%;
+    }
+
+    #karakter3 {
+        position: absolute;
+        height: 75vw;
+        width: 37.7vw;
+    }
+
+    #karakter3sprite {
+        background-image: url(karakter/ansigt_signe.svg);
+        height: 100%;
+    }
+
+    #karakter4 {
+        position: absolute;
+        height: 150vw;
+        width: 75vw;
+    }
+
+    #karakter4sprite {
+        background-image: url(karakter/eva_sprite.svg);
+        height: 100%;
+    }
+
 
     #tekst {
         position: absolute;
