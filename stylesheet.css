@@ -45,7 +45,7 @@
         position: absolute;
         width: 51vw;
         height: 31.5vw;
-        animation: taske_kf 10s both 1;
+        animation: taske_kf 10s forwards 1;
         left: 15%;
     }
 

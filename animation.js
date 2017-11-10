@@ -9,14 +9,13 @@ function instruktioner1() {
     $("#scene").addClass("scene1");
     $("#tekst4").addClass("intro1");
     $("#tekst5").addClass("instru1");
-    $("#taske").on("animationend", klikPaaObjekt);
-
     $("#objekt1").addClass("objekt1_start_pos");
     $("#objekt2").addClass("objekt2_start_pos");
     $("#objekt3").addClass("objekt3_start_pos");
     $("#objekt4").addClass("objekt4_start_pos");
     $("#objekt5").addClass("objekt5_start_pos");
     $("#objekt6").addClass("objekt6_start_pos");
+    $("#taske").on("animationend", klikPaaObjekt);
 }
 
 function klikPaaObjekt() {
@@ -44,29 +43,25 @@ function klikPaaObjekt() {
     $("#objekt1").on("click", instruktioner2);
 
 
-    $("#objekt1").on("click", instruktioner2);
-    $(this).hide();
-    antalObjekter++;
-
-    if (antalObjekter >= 5) {
-        console.log("tykket på 6 objekter");
-        instruktioner2();
-
-    } else {
-        console.log("klik på flere objekter");
-        klikPaaObjekt();
-    }
 }
 
 
 function instruktioner2() {
-
+    //        $(this).hide();
+    //    antalObjekter++;
+    //
+    //    if (antalObjekter >= 5) {
+    //        console.log("tykket på 6 objekter");
+    //        instruktioner2();
+    //
+    //    } else {
+    //        console.log("klik på flere objekter");
+    //        klikPaaObjekt();
+    //    }
     console.log("Objekter fundet og samlet");
 
-    console.log("Objekter fundet og samlet");
+    $("#objekt1").off("click", instruktioner2);
 
-    $("#").off("", instruktioner2);
-    $("#").on("", instruktioner3);
 
     $("#objekt1").removeClass("objekt1_pos_room");
     $("#objekt2").removeClass("objekt2_pos_room");
@@ -80,16 +75,11 @@ function instruktioner2() {
     $("#objekt3").addClass("objekt3_pos_taske");
     $("#objekt4").addClass("objekt4_pos_taske");
     $("#objekt5").addClass("objekt5_pos_taske");
-
     $("#objekt6").addClass("objekt6_pos_taske");
 
     $("#tekst5").addClass("instru2");
     $("#tekst5").on("animationend", instruktioner3);
 
-
-    $("#objekt6").addClass("objekt6_pos_taske");
-    $("#tekst5").addClass("instru2");
-    $("#tekst5").on("animationend", instruktioner3);
 }
 
 function instruktioner3() {
