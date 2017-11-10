@@ -25,7 +25,7 @@ function klikPaaObjekt() {
     $("#tekst4").removeClass("intro1");
     $("#tekst5").removeClass("instru1");
 
-<<<<<<< HEAD
+
     $("#objekt1").removeClass("objekt1_start_pos");
     $("#objekt2").removeClass("objekt2_start_pos");
     $("#objekt3").removeClass("objekt3_start_pos");
@@ -40,8 +40,9 @@ function klikPaaObjekt() {
     $("#objekt5").addClass("objekt5_pos_room");
     $("#objekt6").addClass("objekt6_pos_room");
 
-    $("#objekt1").on("click", instruktioner2);
-=======
+    $("#objekt1").on("click", instruktioner2); ===
+    ===
+    =
 
     $(this).hide();
     antalObjekter++;
@@ -56,23 +57,14 @@ function klikPaaObjekt() {
     }
 }
 
-$("#objekt1").addClass("objekt1_start_pos");
-
-$("#objekt1").addClass("objekt1_pos_room");
-$("#objekt2").addClass("objekt2_pos_room");
-$("#objekt3").addClass("objekt3_pos_room");
-$("#objekt4").addClass("objekt4_pos_room");
-$("#objekt5").addClass("objekt5_pos_room");
-$("#objekt6").addClass("objekt6_pos_room");
-
->>>>>>> origin/master
 
 
-}
+
 
 function instruktioner2() {
-    console.log("Objekter fundet og samlet");
-<<<<<<< HEAD
+    console.log("Objekter fundet og samlet"); <<
+    <<
+    << < HEAD
     $("#").off("", instruktioner2);
     $("#").on("", instruktioner3);
 
@@ -88,11 +80,13 @@ function instruktioner2() {
     $("#objekt3").addClass("objekt3_pos_taske");
     $("#objekt4").addClass("objekt4_pos_taske");
     $("#objekt5").addClass("objekt5_pos_taske");
-    $("#objekt6").addClass("objekt6_pos_taske");
-=======
+    $("#objekt6").addClass("objekt6_pos_taske"); ===
+    ===
+    =
     $("#tekst5").addClass("instru2");
-    $("#tekst5").on("animationend", instruktioner3);
->>>>>>> origin/master
+    $("#tekst5").on("animationend", instruktioner3); >>>
+    >>>
+    > origin / master
 }
 
 function instruktioner3() {
