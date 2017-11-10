@@ -39,6 +39,7 @@ body {
     height: 56.25vw;
 }
 
+
 /*********** Objekter på værelse ***********/
 
 #taske {
@@ -46,6 +47,16 @@ body {
     position: absolute;
     width: 51vw;
     height: 31.5vw;
+    animation: taske_kf 10s both 1;
+}
+
+@keyframes taske_kf {
+    0% {
+        bottom: -35vw;
+    }
+    100% {
+        bottom: 0%;
+    }
 }
 
 #objekt1 {
@@ -90,7 +101,6 @@ body {
     height: ;
 }
 
-
 .scene2 {
     background-image: url(baggrund2.png);
     width: 100vw;
@@ -108,7 +118,6 @@ body {
 .intro1 {
     background-image: url(tekst_bokse/intro1.svg);
 }
-
 
 #tekst1 {
     position: absolute;
@@ -203,12 +212,9 @@ body {
 
 .instru1 {
     background-image: url(tekst_bokse/instruk1.svg);
-<<<<<<< HEAD
-=======
-    background-size: 90%;
+    <<<<<<< HEAD=======background-size: 90%;
     background-repeat: no-repeat;
->>>>>>> origin/master
-    width: 30.63vw;
+    >>>>>>>origin/master width: 30.63vw;
     height: 11.81vw;
 }
 
@@ -260,12 +266,11 @@ body {
     height: 11.81vw;
 }
 
-<<<<<<< HEAD
-.svarja {}
+<<<<<<< HEAD .svarja {}
 
 .svarnej {}
-=======
-.svarja {
+
+=======.svarja {
     background-image: url(tekst_bokse/JA.svg);
     background-size: 90%;
     background-repeat: no-repeat;
@@ -280,4 +285,5 @@ body {
     width: 30.63vw;
     height: 11.81vw;
 }
->>>>>>> origin/master
+
+>>>>>>>origin/master
