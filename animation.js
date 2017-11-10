@@ -6,8 +6,7 @@ function instruktioner1() {
     $("#scene").addClass("scene1");
     $("#introduktion").addClass("intro1");
     $("#instruktion").addClass("instru1");
-    $("#okBtn").addClass("okBtn_trykpos");
-    $("#okBtn").on("click", klikPaaObjekt);
+    $("").on("", klikPaaObjekt);
 }
 
 function klikPaaObjekt() {

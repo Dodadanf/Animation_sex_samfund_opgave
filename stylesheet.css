@@ -1,4 +1,4 @@
-*body {
+body {
     margin: 0;
 }
 
@@ -10,15 +10,18 @@
 }
 
 .startscreen_away {
-    animation: startscreen_away_kf 3s both 1;
+    animation: startscreen_away_kf 4s both 1;
 }
 
 @keyframes startscreen_away_kf {
     0% {
         opacity: 1;
     }
-    100% {
+    90% {
         opacity: 0.0;
+    }
+    100% {
+        bottom: -100vw;
     }
 }
 
@@ -50,17 +53,19 @@
     background-image: url(intro1.svg);
     width: 30.63vw;
     height: 11.81vw;
-    animation: intro1_kf 5s forwards 1;
+    right: 1%;
+    bottom: 15vw;
+    animation: intro1_kf 2s both 1;
 }
 
 @keyframes intro1_kf() {
     0% {
         right: 0%;
-        bottom: -40vw;
+        bottom: -20vw;
     }
     100% {
         right: 0%;
-        bottom: 40vw;
+        bottom: 15vw;
     }
 }
 
@@ -94,14 +99,24 @@
     height: ;
 }
 
-#instruktion {
-    position: absolute;
-}
-
-.instru1 {
+.intro7 {
     background-image: url();
     width: ;
     height: ;
+}
+
+#instruktion {
+    position: absolute;
+    width: 30.63vw;
+    height: 9.38vw;
+}
+
+.instru1 {
+    background-image: url(instruk1.svg);
+    width: 30.63vw;
+    height: 9.38vw;
+    right: 1%;
+    bottom: 2vw;
 }
 
 .instru2 {
@@ -140,15 +155,6 @@
     height: ;
 }
 
-#okBtn {
-    position: absolute;
-}
+.svarja {}
 
-.okBtn_startpos {
-    display: none;
-}
-
-.okBtn_trykpos {
-    bottom: 5%;
-    left: 48%;
-}
+.svarnej {}
