@@ -1,3 +1,6 @@
+var antalObjekter = 0;
+
+
 $(window).on("load", instruktioner1);
 
 function instruktioner1() {
@@ -22,6 +25,7 @@ function klikPaaObjekt() {
     $("#tekst4").removeClass("intro1");
     $("#tekst5").removeClass("instru1");
 
+<<<<<<< HEAD
     $("#objekt1").removeClass("objekt1_start_pos");
     $("#objekt2").removeClass("objekt2_start_pos");
     $("#objekt3").removeClass("objekt3_start_pos");
@@ -37,12 +41,38 @@ function klikPaaObjekt() {
     $("#objekt6").addClass("objekt6_pos_room");
 
     $("#objekt1").on("click", instruktioner2);
+=======
+
+    $(this).hide();
+    antalObjekter++;
+
+    if (antalObjekter >= 5) {
+        console.log("tykket på 6 objekter");
+        instruktioner2();
+
+    } else {
+        console.log("klik på flere objekter");
+        klikPaaObjekt();
+    }
+}
+
+$("#objekt1").addClass("objekt1_start_pos");
+
+$("#objekt1").addClass("objekt1_pos_room");
+$("#objekt2").addClass("objekt2_pos_room");
+$("#objekt3").addClass("objekt3_pos_room");
+$("#objekt4").addClass("objekt4_pos_room");
+$("#objekt5").addClass("objekt5_pos_room");
+$("#objekt6").addClass("objekt6_pos_room");
+
+>>>>>>> origin/master
 
 
 }
 
 function instruktioner2() {
     console.log("Objekter fundet og samlet");
+<<<<<<< HEAD
     $("#").off("", instruktioner2);
     $("#").on("", instruktioner3);
 
@@ -59,11 +89,22 @@ function instruktioner2() {
     $("#objekt4").addClass("objekt4_pos_taske");
     $("#objekt5").addClass("objekt5_pos_taske");
     $("#objekt6").addClass("objekt6_pos_taske");
+=======
+    $("#tekst5").addClass("instru2");
+    $("#tekst5").on("animationend", instruktioner3);
+>>>>>>> origin/master
 }
 
 function instruktioner3() {
     console.log("Sceneskift, tankeboble");
-    $("#").off("", instruktioner3);
+    $("#tekst5").off("animationend", instruktioner3);
+    $("#tekst5").removeClass("instru2");
+    $("#scene").removeClass("scene1");
+    $("#scene").addClass("scene2");
+    $("#tekst2").addClass("intro3");
+    $("#tekst3").addClass("instru3");
+    $("#tekst4").addClass("svarja");
+    $("#tekst5").addClass("svarnej");
     $("#").on("", valgMedMuligheder1);
 }
 
@@ -100,7 +141,7 @@ function valgUdenMuligheder() {
 function instruktioner6() {
     console.log("Idiot tager uden samtykke");
     $("#").off("", valgUdenMuligheder);
-    $("#").on("", outro);
+    $("#tekst6").on("click", outro);
 
 }
 

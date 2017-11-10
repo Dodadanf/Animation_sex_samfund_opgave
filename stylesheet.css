@@ -214,12 +214,22 @@ body {
     top: 30vw;
 }
 
+<<<<<<< HEAD
 .objekt6_pos_taske {
     background-size: 70%;
     background-repeat: no-repeat;
     left: 47vw;
     top: 40vw;
     z-index: 5;
+=======
+@keyframes puls_kf {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0.8);
+    }
+>>>>>>> origin/master
 }
 
 .scene2 {
@@ -346,6 +356,12 @@ body {
     background-repeat: no-repeat;
     width: 30.63vw;
     height: 11.81vw;
+    animation: instru2_kf 5s both 1;
+}
+
+@keyframes instru2_kf {
+    0% {}
+    100% {}
 }
 
 .instru3 {
