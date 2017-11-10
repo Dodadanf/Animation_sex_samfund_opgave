@@ -1,3 +1,6 @@
+var antalObjekter = 0;
+
+
 $(window).on("load", instruktioner1);
 
 function instruktioner1() {
@@ -15,9 +18,21 @@ function klikPaaObjekt() {
     $("#tekst4").removeClass("intro1");
     $("#tekst5").removeClass("instru1");
 
-    $("#").on("", instruktioner2);
+    $(this).hide();
+    antalObjekter++;
 
-    $("#objekt1").addClass("objekt1_start_pos");
+    if (antalObjekter >= 5) {
+        console.log("tykket på 5");
+        instruktioner2();
+
+    } else {
+        console.log("klik på goods igen");
+        klikPaaObjekt();
+    }
+}
+$("#").on("", instruktioner2);
+
+$("#objekt1").addClass("objekt1_start_pos");
 }
 
 function instruktioner2() {
@@ -29,6 +44,8 @@ function instruktioner2() {
 function instruktioner3() {
     console.log("Sceneskift, tankeboble");
     $("#").off("", instruktioner3);
+    $("#scene").removeClass("scene1");
+    $("#scene").addClass("scene2");
     $("#").on("", valgMedMuligheder1);
 }
 
@@ -65,7 +82,7 @@ function valgUdenMuligheder() {
 function instruktioner6() {
     console.log("Idiot tager uden samtykke");
     $("#").off("", valgUdenMuligheder);
-    $("#").on("", outro);
+    $("#tekst6").on("click", outro);
 
 }
 

@@ -150,6 +150,15 @@ body {
 
 .objekt6_pos_room {}
 
+@keyframes puls_kf {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0.8);
+    }
+}
+
 .scene2 {
     background-image: url(baggrund2.png);
     width: 100vw;
