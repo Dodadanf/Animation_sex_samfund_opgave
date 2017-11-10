@@ -307,6 +307,12 @@ body {
     background-repeat: no-repeat;
     width: 30.63vw;
     height: 11.81vw;
+    animation: instru2_kf 5s both 1;
+}
+
+@keyframes instru2_kf {
+    0% {}
+    100% {}
 }
 
 .instru3 {

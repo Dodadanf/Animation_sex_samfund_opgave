@@ -30,15 +30,14 @@ function klikPaaObjekt() {
     antalObjekter++;
 
     if (antalObjekter >= 5) {
-        console.log("tykket på 5");
+        console.log("tykket på 6 objekter");
         instruktioner2();
 
     } else {
-        console.log("klik på goods igen");
+        console.log("klik på flere objekter");
         klikPaaObjekt();
     }
 }
-$("#").on("", instruktioner2);
 
 $("#objekt1").addClass("objekt1_start_pos");
 
@@ -49,23 +48,26 @@ $("#objekt4").addClass("objekt4_pos_room");
 $("#objekt5").addClass("objekt5_pos_room");
 $("#objekt6").addClass("objekt6_pos_room");
 
-$("#").on("", instruktioner2);
-
 
 
 }
 
 function instruktioner2() {
     console.log("Objekter fundet og samlet");
-    $("#").off("", instruktioner2);
-    $("#").on("", instruktioner3);
+    $("#tekst5").addClass("instru2");
+    $("#tekst5").on("animationend", instruktioner3);
 }
 
 function instruktioner3() {
     console.log("Sceneskift, tankeboble");
-    $("#").off("", instruktioner3);
+    $("#tekst5").off("animationend", instruktioner3);
+    $("#tekst5").removeClass("instru2");
     $("#scene").removeClass("scene1");
     $("#scene").addClass("scene2");
+    $("#tekst2").addClass("intro3");
+    $("#tekst3").addClass("instru3");
+    $("#tekst4").addClass("svarja");
+    $("#tekst5").addClass("svarnej");
     $("#").on("", valgMedMuligheder1);
 }
 
