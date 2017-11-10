@@ -13,6 +13,8 @@ function klikPaaObjekt() {
     console.log("OK klikkes, objekter findes og samles");
     $("#").off("", klikPaaObjekt);
     $("#").on("", instruktioner2);
+
+    $("#objekt1").addClass("objekt1_start_pos");
 }
 
 function instruktioner2() {
