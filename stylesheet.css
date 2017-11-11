@@ -407,14 +407,15 @@ body {
     background-image: url(tekst_bokse/JA.svg);
     background-size: 90%;
     background-repeat: no-repeat;
-    width: 30.63vw;
-    height: 11.81vw;
+    width: 10.56vw !important;
+    height: 5.69vw !important;
+    align-self: right;
 }
 
 .svarnej {
     background-image: url(tekst_bokse/NEJ.svg);
     background-size: 90%;
     background-repeat: no-repeat;
-    width: 30.63vw;
-    height: 11.81vw;
+    width: 10.56vw !important;
+    height: 5.69vw !important;
 }
