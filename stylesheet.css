@@ -18,7 +18,7 @@ body {
     0% {
         opacity: 1;
     }
-    90% {
+    99% {
         opacity: 0.0;
     }
     100% {
@@ -35,6 +35,12 @@ body {
 
 .scene1 {
     background-image: url(baggrund1.jpg);
+    width: 100vw;
+    height: 56.25vw;
+}
+
+.scene2 {
+    background-image: url(baggrund2.png);
     width: 100vw;
     height: 56.25vw;
 }
@@ -231,11 +237,8 @@ body {
     }
 }
 
-.scene2 {
-    background-image: url(baggrund2.png);
-    width: 100vw;
-    height: 56.25vw;
-}
+
+/*********** TEKST ***********/
 
 #tekst {
     position: absolute;
@@ -355,7 +358,7 @@ body {
     background-repeat: no-repeat;
     width: 30.63vw;
     height: 11.81vw;
-    animation: instru2_kf 5s both 1;
+    animation: instru2_kf 4s both 1;
 }
 
 @keyframes instru2_kf {
@@ -419,3 +422,6 @@ body {
     width: 10.56vw !important;
     height: 5.69vw !important;
 }
+
+
+/*********** ANDET ***********/
