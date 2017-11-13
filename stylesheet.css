@@ -489,12 +489,11 @@ body {
 }
 
 .instru2 {
-    background-image: url(tekst_bokse/instruk2.svg);
+    background-image: url(tekst_bokse/instru2.svg);
     background-size: 90%;
     background-repeat: no-repeat;
     width: 30.63vw;
     height: 11.81vw;
-    animation: instru2_kf 5s both 1;
     animation: instru2_kf 3s both 1;
 }
 
