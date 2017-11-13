@@ -47,7 +47,7 @@ function klikPaaObjekt() {
 
 
 function instruktioner2() {
-    //        $(this).hide();
+    //        $(this).hide(); Skal ikke være hide, men skift af class fra pos_room til pos_taske
     //    antalObjekter++;
     //
     //    if (antalObjekter >= 5) {
