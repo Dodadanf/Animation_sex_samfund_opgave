@@ -123,6 +123,17 @@ function reaktion1() {
     $("#tekst3").removeClass("instru3");
     $("#ja1").removeClass("svarja");
     $("#nej1").removeClass("svarnej");
+
+    $("#karakter1_container").removeClass("karakter1_start_pos");
+    $("#karakter2_container").removeClass("karakter2_start_pos");
+    $("#karakter3_container").removeClass("karakter3_start_pos");
+    $("#karakter4_container").removeClass("karakter4_start_pos");
+
+    $("#karakter1_container").addClass("karakter1_glad");
+    $("#karakter2_container").addClass("karakter2_glad");
+    $("#karakter3_container").addClass("karakter3_glad");
+    $("#karakter4_container").addClass("karakter4_glad");
+
     $("#karakter1").on("animationend", instruktioner4);
 
 }
@@ -134,6 +145,17 @@ function reaktion2() {
     $("#tekst3").removeClass("instru3");
     $("#ja1").removeClass("svarja");
     $("#nej1").removeClass("svarnej");
+
+    $("#karakter1_container").removeClass("karakter1_start_pos");
+    $("#karakter2_container").removeClass("karakter2_start_pos");
+    $("#karakter3_container").removeClass("karakter3_start_pos");
+    $("#karakter4_container").removeClass("karakter4_start_pos");
+
+    $("#karakter1_container").addClass("karakter1_ad");
+    $("#karakter2_container").addClass("karakter2_ad");
+    $("#karakter3_container").addClass("karakter3_ad");
+    $("#karakter4_container").addClass("karakter4_ad");
+
     $("#karakter1").on("animationend", instruktioner4);
 }
 

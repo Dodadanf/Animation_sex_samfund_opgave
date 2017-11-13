@@ -360,6 +360,19 @@ body {
     left: 12vw;
 }
 
+.karakter4_glad {
+    background-position: 200% 100%;
+}
+
+.karakter4_ad {
+    background-position: 300% 100%;
+}
+
+.karakter4_overrasket {
+    background-position: 400% 100%;
+}
+
+
 
 /************** tekst ***************/
 
