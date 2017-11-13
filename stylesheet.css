@@ -8,6 +8,7 @@ body {
     height: 56.25vw;
     position: relative;
     z-index: 4;
+    background-size: cover;
 }
 
 .startscreen_away {
@@ -37,6 +38,7 @@ body {
     background-image: url(baggrund1.jpg);
     width: 100vw;
     height: 56.25vw;
+    background-size: cover;
 }
 
 .scene2 {
@@ -55,6 +57,7 @@ body {
     height: 31.5vw;
     animation: taske_kf 10s forwards 1;
     left: 15%;
+    background-size: cover;
 }
 
 @keyframes taske_kf {
