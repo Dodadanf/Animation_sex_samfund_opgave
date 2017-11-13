@@ -106,6 +106,10 @@ function valgMedMuligheder1() {
     $("#").on("", instruktioner4);
 }
 
+function reaktion1 {}
+
+function reaktion2 {}
+
 function instruktioner4() {
     console.log("Reaktion, og videre til taleboble fra kammerat");
     $("#").off("", instruktioner4);
@@ -118,10 +122,31 @@ function valgMedMuligheder2() {
     $("#").on("", instruktioner5);
 }
 
+function reaktion3 {}
+
+function reaktion4 {}
+
 function instruktioner5() {
     console.log("Reaktion, idiot kommer");
     $("#").off("", instruktioner5);
     $("#").on("", valgUdenMuligheder);
+}
+
+function valgMedMuligheder3() {
+    console.log("Tanker om at dele");
+    $("#").off("", valgMedMuligheder2);
+    $("#").on("", instruktioner5);
+}
+
+function reaktion5 {}
+
+function reaktion6 {}
+
+function instruktioner6() {
+    console.log("Idiot tager uden samtykke");
+    $("#").off("", valgUdenMuligheder);
+    $("#tekst6").on("click", outro);
+
 }
 
 function valgUdenMuligheder() {
@@ -130,7 +155,7 @@ function valgUdenMuligheder() {
     $("#").on("", instruktioner6);
 }
 
-function instruktioner6() {
+function instruktioner7() {
     console.log("Idiot tager uden samtykke");
     $("#").off("", valgUdenMuligheder);
     $("#tekst6").on("click", outro);

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< HEAD body {
     margin: 0;
 }
@@ -475,6 +476,9 @@
 }
 
 =======body {
+=======
+body {
+>>>>>>> origin/master
     margin: 0;
 }
 
@@ -484,6 +488,7 @@
     height: 56.25vw;
     position: relative;
     z-index: 4;
+    background-size: cover;
 }
 
 .startscreen_away {
@@ -494,7 +499,7 @@
     0% {
         opacity: 1;
     }
-    90% {
+    99% {
         opacity: 0.0;
     }
     100% {
@@ -511,6 +516,15 @@
 
 .scene1 {
     background-image: url(baggrund1.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 56.25vw;
+    background-size: cover;
+}
+
+.scene2 {
+    background-image: url(baggrund2.png);
+    background-size: cover;
     width: 100vw;
     height: 56.25vw;
 }
@@ -525,6 +539,7 @@
     height: 31.5vw;
     animation: taske_kf 10s forwards 1;
     left: 15%;
+    background-size: cover;
 }
 
 @keyframes taske_kf {
@@ -707,11 +722,8 @@
     }
 }
 
-.scene2 {
-    background-image: url(baggrund2.png);
-    width: 100vw;
-    height: 56.25vw;
-}
+
+/*********** TEKST ***********/
 
 #tekst {
     position: absolute;
@@ -831,7 +843,7 @@
     background-repeat: no-repeat;
     width: 30.63vw;
     height: 11.81vw;
-    animation: instru2_kf 5s both 1;
+    animation: instru2_kf 4s both 1;
 }
 
 @keyframes instru2_kf {
@@ -883,16 +895,22 @@
     background-image: url(tekst_bokse/JA.svg);
     background-size: 90%;
     background-repeat: no-repeat;
-    width: 30.63vw;
-    height: 11.81vw;
+    width: 10.56vw !important;
+    height: 5.69vw !important;
+    align-self: right;
 }
 
 .svarnej {
     background-image: url(tekst_bokse/NEJ.svg);
     background-size: 90%;
     background-repeat: no-repeat;
-    width: 30.63vw;
-    height: 11.81vw;
+    width: 10.56vw !important;
+    height: 5.69vw !important;
 }
 
+<<<<<<< HEAD
 > > > > > > > origin/master
+=======
+
+/*********** ANDET ***********/
+>>>>>>> origin/master
