@@ -557,3 +557,7 @@ body {
     width: 10.56vw !important;
     height: 5.69vw !important;
 }
+
+.svar_startpos {
+    display: none;
+}

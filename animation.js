@@ -112,6 +112,10 @@ function valgMedMuligheder1() {
     $("#tekst3").addClass("instru3");
     $("#ja1").addClass("svarja");
     $("#nej1").addClass("svarnej");
+    $("#ja2").addClass("svar_startpos");
+    $("#ja3").addClass("svar_startpos");
+    $("#nej2").addClass("svar_startpos");
+    $("#nej3").addClass("svar_startpos");
     $("#ja1").on("click", reaktion1);
     $("#nej1").on("click", reaktion2);
 }
@@ -151,6 +155,10 @@ function valgMedMuligheder2() {
     $("#tekst3").addClass("instru4");
     $("#ja2").addClass("svarja");
     $("#nej2").addClass("svarnej");
+    $("#ja1").addClass("svar_startpos");
+    $("#ja3").addClass("svar_startpos");
+    $("#nej1").addClass("svar_startpos");
+    $("#nej3").addClass("svar_startpos");
     $("#ja2").on("click", reaktion3);
     $("#nej2").on("click", reaktion4);
 }
@@ -190,6 +198,10 @@ function valgMedMuligheder3() {
     $("#tekst3").addClass("instru5");
     $("#ja3").addClass("svarja");
     $("#nej3").addClass("svarnej");
+    $("#ja2").addClass("svar_startpos");
+    $("#ja1").addClass("svar_startpos");
+    $("#nej2").addClass("svar_startpos");
+    $("#nej1").addClass("svar_startpos");
     $("#ja3").on("click", reaktion5);
     $("#nej3").on("click", reaktion6);
 }
