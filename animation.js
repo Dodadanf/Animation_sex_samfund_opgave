@@ -126,6 +126,7 @@ function reaktion1() {
     $("#ja1").removeClass("svarja");
     $("#nej1").removeClass("svarnej");
     $("#karakter1").on("animationend", instruktioner4);
+
 }
 
 function reaktion2() {
