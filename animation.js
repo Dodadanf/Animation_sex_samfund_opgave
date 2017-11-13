@@ -93,6 +93,11 @@ function instruktioner3() {
     $("#tekst4").addClass("svarja");
     $("#tekst5").addClass("svarnej");
     $("#").on("", valgMedMuligheder1);
+
+    $("#karakter1").addClass("karakter1sprite");
+    $("#karakter2").addClass("karakter2sprite");
+    $("#karakter3").addClass("karakter3sprite");
+    $("#karakter4").addClass("karakter4sprite");
 }
 
 function valgMedMuligheder1() {
