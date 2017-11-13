@@ -262,6 +262,17 @@ body {
     left: -3vw;
 }
 
+.karakter1_glad {
+    background-position: 200% 100%;
+}
+
+.karakter1_ad {
+    background-position: 300% 100%;
+}
+
+.karakter1_overrasket {
+    background-position: 400% 100%;
+}
 
 /************ karakter 2 (marcus) ********/
 
@@ -283,6 +294,17 @@ body {
     left: 21vw;
 }
 
+.karakter2_glad {
+    background-position: 200% 100%;
+}
+
+.karakter2_ad {
+    background-position: 300% 100%;
+}
+
+.karakter2_overrasket {
+    background-position: 400% 100%;
+}
 
 /************ karakter 3 (signe) ********/
 
@@ -305,6 +327,17 @@ body {
     left: 5vw;
 }
 
+.karakter3_glad {
+    background-position: 200% 100%;
+}
+
+.karakter3_ad {
+    background-position: 300% 100%;
+}
+
+.karakter3_overrasket {
+    background-position: 400% 100%;
+}
 
 /************ karakter 4 (eva) ********/
 
