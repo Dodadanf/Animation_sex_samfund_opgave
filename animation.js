@@ -94,10 +94,10 @@ function instruktioner3() {
     $("#tekst5").addClass("svarnej");
     $("#").on("", valgMedMuligheder1);
 
-    $("#karakter1").addClass("karakter1sprite");
-    $("#karakter2").addClass("karakter2sprite");
-    $("#karakter3").addClass("karakter3sprite");
-    $("#karakter4").addClass("karakter4sprite");
+    $("#karakter1_container").addClass("karakter1_start_pos");
+    $("#karakter2_container").addClass("karakter2_start_pos");
+    $("#karakter3_container").addClass("karakter3_start_pos");
+    $("#karakter4_container").addClass("karakter4_start_pos");
 }
 
 function valgMedMuligheder1() {
