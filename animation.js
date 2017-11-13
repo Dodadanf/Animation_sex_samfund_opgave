@@ -101,9 +101,9 @@ function valgMedMuligheder1() {
     $("#").on("", instruktioner4);
 }
 
-function reaktion1 {}
+function reaktion1() {}
 
-function reaktion2 {}
+function reaktion2() {}
 
 function instruktioner4() {
     console.log("Reaktion, og videre til taleboble fra kammerat");
@@ -117,9 +117,9 @@ function valgMedMuligheder2() {
     $("#").on("", instruktioner5);
 }
 
-function reaktion3 {}
+function reaktion3() {}
 
-function reaktion4 {}
+function reaktion4() {}
 
 function instruktioner5() {
     console.log("Reaktion, idiot kommer");
@@ -133,9 +133,9 @@ function valgMedMuligheder3() {
     $("#").on("", instruktioner5);
 }
 
-function reaktion5 {}
+function reaktion5() {}
 
-function reaktion6 {}
+function reaktion6() {}
 
 function instruktioner6() {
     console.log("Idiot tager uden samtykke");
