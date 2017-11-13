@@ -83,11 +83,12 @@ function instruktioner2() {
 }
 
 function instruktioner3() {
-    console.log("Sceneskift, tankeboble");
+    console.log("Sceneskift, tankeboble om tyggegummi");
     $("#tekst5").off("animationend", instruktioner3);
     $("#tekst5").removeClass("instru2");
     $("#scene").removeClass("scene1");
     $("#scene").addClass("scene2");
+<<<<<<< HEAD
     $("#tekst2").addClass("intro3");
     $("#tekst3").addClass("instru3");
     $("#tekst4").addClass("svarja");
@@ -98,69 +99,147 @@ function instruktioner3() {
     $("#karakter2_container").addClass("karakter2_start_pos");
     $("#karakter3_container").addClass("karakter3_start_pos");
     $("#karakter4_container").addClass("karakter4_start_pos");
+=======
+    $("#tekst4").addClass("intro3");
+
+    $("#tekst4").on("animationend", valgMedMuligheder1);
+>>>>>>> origin/master
 }
 
 function valgMedMuligheder1() {
-    console.log("Tanke om at dele");
-    $("#").off("", valgMedMuligheder1);
-    $("#").on("", instruktioner4);
+    console.log("Dele tyggegummi?");
+    $("#tekst4").off("animationend", valgMedMuligheder1);
+    $("#tekst4").removeClass("intro3");
+    $("#tekst2").addClass("intro3");
+    $("#tekst3").addClass("instru3");
+    $("#ja1").addClass("svarja");
+    $("#nej1").addClass("svarnej");
+    $("#ja1").on("click", reaktion1);
+    $("#nej1").on("click", reaktion2);
 }
 
-function reaktion1() {}
+function reaktion1() {
+    console.log("Ja valgt, glad reaktion");
+    $("#ja1").off("click", reaktion1);
+    $("#tekst2").removeClass("intro3");
+    $("#tekst3").removeClass("instru3");
+    $("#ja1").removeClass("svarja");
+    $("#nej1").removeClass("svarnej");
+    $("#karakter1").on("animationend", instruktioner4);
+}
 
-function reaktion2() {}
+function reaktion2() {
+    console.log("Nej valgt, sur reaktion");
+    $("#nej1").off("click", reaktion2);
+    $("#tekst2").removeClass("intro3");
+    $("#tekst3").removeClass("instru3");
+    $("#ja1").removeClass("svarja");
+    $("#nej1").removeClass("svarnej");
+    $("#karakter1").on("animationend", instruktioner4);
+}
 
 function instruktioner4() {
-    console.log("Reaktion, og videre til taleboble fra kammerat");
-    $("#").off("", instruktioner4);
-    $("#").on("", valgMedMuligheder2);
+    console.log("videre til taleboble fra kammerat");
+    $("#karakter1").off("animationend", instruktioner4);
+    $("#tekst4").addClass("intro4");
+    $("#tekst4").on("animationend", valgMedMuligheder2);
 }
 
 function valgMedMuligheder2() {
-    console.log("Tanker om at dele");
-    $("#").off("", valgMedMuligheder2);
-    $("#").on("", instruktioner5);
+    console.log("Tanker om at dele sodavand");
+    $("#tekst4").off("animationend", valgMedMuligheder2);
+    $("#tekst4").removeClass("intro4");
+    $("#tekst2").addClass("intro4");
+    $("#tekst3").addClass("instru4");
+    $("#ja2").addClass("svarja");
+    $("#nej2").addClass("svarnej");
+    $("#ja2").on("click", reaktion3);
+    $("#nej2").on("click", reaktion4);
 }
 
-function reaktion3() {}
+function reaktion3() {
+    console.log("Ja valgt, glad reaktion");
+    $("#ja2").off("click", reaktion3);
+    $("#tekst2").removeClass("intro4");
+    $("#tekst3").removeClass("instru4");
+    $("#ja2").removeClass("svarja");
+    $("#nej2").removeClass("svarnej");
+    $("#karakter2").on("animationend", instruktioner5);
+}
 
-function reaktion4() {}
+function reaktion4() {
+    console.log("Nej valgt, sur reaktion");
+    $("#nej2").off("click", reaktion4);
+    $("#tekst2").removeClass("intro4");
+    $("#tekst3").removeClass("instru4");
+    $("#ja2").removeClass("svarja");
+    $("#nej2").removeClass("svarnej");
+    $("#karakter2").on("animationend", instruktioner5);
+}
 
 function instruktioner5() {
-    console.log("Reaktion, idiot kommer");
-    $("#").off("", instruktioner5);
-    $("#").on("", valgUdenMuligheder);
+    console.log("Tanker om sure sokker");
+    $("#karakter2").off("animationend", instruktioner5);
+    $("#tekst4").addClass("intro5");
+    $("#tekst4").on("animationend", valgMedMuligheder3);
 }
 
 function valgMedMuligheder3() {
     console.log("Tanker om at dele");
-    $("#").off("", valgMedMuligheder2);
-    $("#").on("", instruktioner5);
+    $("#tekst4").off("", valgMedMuligheder3);
+    $("#tekst4").removeClass("intro5");
+    $("#tekst2").addClass("intro5");
+    $("#tekst3").addClass("instru5");
+    $("#ja3").addClass("svarja");
+    $("#nej3").addClass("svarnej");
+    $("#ja3").on("click", reaktion5);
+    $("#nej3").on("click", reaktion6);
 }
 
-function reaktion5() {}
+function reaktion5() {
+    console.log("Ja valgt, frastødt reaktion");
+    $("#ja3").off("click", reaktion5);
+    $("#tekst2").removeClass("intro5");
+    $("#tekst3").removeClass("instru5");
+    $("#ja3").removeClass("svarja");
+    $("#nej3").removeClass("svarnej");
+    $("#karakter3").on("animationend", instruktioner6);
+}
 
-function reaktion6() {}
+function reaktion6() {
+    console.log("Nej valgt, glad reaktion");
+    $("#nej3").off("click", reaktion6);
+    $("#tekst2").removeClass("intro5");
+    $("#tekst3").removeClass("instru5");
+    $("#ja3").removeClass("svarja");
+    $("#nej3").removeClass("svarnej");
+    $("#karakter3").on("animationend", instruktioner6);
+}
 
 function instruktioner6() {
-    console.log("Idiot tager uden samtykke");
-    $("#").off("", valgUdenMuligheder);
-    $("#tekst6").on("click", outro);
+    console.log("Telefon bliver taget frem");
+    $("#tekst3").addClass("intro6");
+    $("#tekst4").addClass("instru6");
+    $("#tekst3").on("animationend", valgUdenMuligheder);
 
 }
 
 function valgUdenMuligheder() {
     console.log("Idiot tager uden samtykke");
-    $("#").off("", valgUdenMuligheder);
-    $("#").on("", instruktioner6);
+    $("#tekst3").off("animationend", valgUdenMuligheder);
+    $("#tekst3").removeClass("intro6");
+    $("#tekst4").removeClass("instru6");
+    $("#tekst3").addClass("intro7");
+    $("#tekst4").addClass("instru7");
+    $("#tekst4").on("click", outro);
 }
 
-function instruktioner7() {
-    console.log("Idiot tager uden samtykke");
-    $("#").off("", valgUdenMuligheder);
-    $("#tekst6").on("click", outro);
-
-}
+//function instruktioner7() {
+//    console.log("Idiot tager uden samtykke");
+//    $("#").off("", valgUdenMuligheder);
+//    $("#tekst6").on("click", outro);
+//
+//}
 
 function outro() {
     window.location.replace("https://privatsnak.dk");

@@ -371,6 +371,48 @@
     top: 80%;
 }
 
+#ja1 {
+    position: absolute;
+    width: 30.63vw;
+    height: 11.25vw;
+    top: 60%;
+}
+
+#ja2 {
+    position: absolute;
+    width: 30.63vw;
+    height: 11.25vw;
+    top: 60%;
+}
+
+#ja3 {
+    position: absolute;
+    width: 30.63vw;
+    height: 11.25vw;
+    top: 60%;
+}
+
+#nej1 {
+    position: absolute;
+    width: 30.63vw;
+    height: 11.25vw;
+    top: 80%;
+}
+
+#nej2 {
+    position: absolute;
+    width: 30.63vw;
+    height: 11.25vw;
+    top: 80%;
+}
+
+#nej3 {
+    position: absolute;
+    width: 30.63vw;
+    height: 11.25vw;
+    top: 80%;
+}
+
 .intro1 {
     background-image: url(tekst_bokse/intro1.svg);
     background-size: 90%;
@@ -393,6 +435,7 @@
     background-repeat: no-repeat;
     width: 30.63vw;
     height: 11.81vw;
+    animation: instru2_kf 3s both 1;
 }
 
 .intro4 {
@@ -401,6 +444,7 @@
     background-repeat: no-repeat;
     width: 30.63vw;
     height: 11.81vw;
+    animation: instru2_kf 3s both 1;
 }
 
 .intro5 {
@@ -409,6 +453,7 @@
     background-repeat: no-repeat;
     width: 30.63vw;
     height: 11.81vw;
+    animation: instru2_kf 3s both 1;
 }
 
 .intro6 {
@@ -417,6 +462,7 @@
     background-repeat: no-repeat;
     width: 30.63vw;
     height: 11.81vw;
+    animation: instru2_kf 3s both 1;
 }
 
 .intro7 {
@@ -442,7 +488,11 @@
     background-repeat: no-repeat;
     width: 30.63vw;
     height: 11.81vw;
+<<<<<<< HEAD
     animation: instru2_kf 5s both 1;
+=======
+    animation: instru2_kf 3s both 1;
+>>>>>>> origin/master
 }
 
 @keyframes instru2_kf {
