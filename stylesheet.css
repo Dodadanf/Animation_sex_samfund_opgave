@@ -39,6 +39,7 @@ body {
     height: 56.25vw;
 }
 
+
 /*********** Objekter på værelse ***********/
 
 #taske {
@@ -231,6 +232,7 @@ body {
     }
 }
 
+
 /************** Skolegård *************/
 
 .scene2 {
@@ -238,6 +240,7 @@ body {
     width: 100vw;
     height: 56.25vw;
 }
+
 
 /************ karakter 1 (malik) ********/
 
@@ -259,6 +262,7 @@ body {
     left: -3vw;
 }
 
+
 /************ karakter 2 (marcus) ********/
 
 #karakter2_container {
@@ -272,13 +276,13 @@ body {
     background-image: url(karakter/ansigt_marcus.svg);
     background-size: 400% 100%;
     background-repeat: no-repeat;
-
 }
 
 .karakter2_start_pos {
     top: 20vw;
     left: 21vw;
 }
+
 
 /************ karakter 3 (signe) ********/
 
@@ -301,6 +305,7 @@ body {
     left: 5vw;
 }
 
+
 /************ karakter 4 (eva) ********/
 
 #karakter4_container {
@@ -321,6 +326,7 @@ body {
     top: 20vw;
     left: 12vw;
 }
+
 
 /************** tekst ***************/
 
@@ -490,437 +496,6 @@ body {
     height: 11.81vw;
     animation: instru2_kf 5s both 1;
     animation: instru2_kf 3s both 1;
-
-}
-
-@keyframes instru2_kf {
-    0% {}
-    100% {}
-}
-
-.instru3 {
-    background-image: url(tekst_bokse/instruk3.svg);
-    background-size: 90%;
-    background-repeat: no-repeat;
-    width: 30.63vw;
-    height: 11.81vw;
-}
-
-.instru4 {
-    background-image: url(tekst_bokse/instruk4.svg);
-    background-size: 90%;
-    background-repeat: no-repeat;
-    width: 30.63vw;
-    height: 11.81vw;
-}
-
-.instru5 {
-    background-image: url(tekst_bokse/instruk5.svg);
-    background-size: 90%;
-    background-repeat: no-repeat;
-    width: 30.63vw;
-    height: 11.81vw;
-}
-
-.instru6 {
-    background-image: url(tekst_bokse/instruk6.svg);
-    background-size: 90%;
-    background-repeat: no-repeat;
-    width: 30.63vw;
-    height: 11.81vw;
-}
-
-.instru7 {
-    background-image: url(tekst_bokse/instruk7.svg);
-    background-size: 90%;
-    background-repeat: no-repeat;
-    width: 30.63vw;
-    height: 11.81vw;
-}
-
-.svarja {
-    background-image: url(tekst_bokse/JA.svg);
-    background-size: 90%;
-    background-repeat: no-repeat;
-    width: 30.63vw;
-    height: 11.81vw;
-}
-
-.svarnej {
-    background-image: url(tekst_bokse/NEJ.svg);
-    background-size: 90%;
-    background-repeat: no-repeat;
-    width: 30.63vw;
-    height: 11.81vw;
-}
-
-
-body {
-    margin: 0;
-}
-
-#startscreen {
-    background-image: url(startscreen.png);
-    width: 100vw;
-    height: 56.25vw;
-    position: relative;
-    z-index: 4;
-    background-size: cover;
-}
-
-.startscreen_away {
-    animation: startscreen_away_kf 8s both 1;
-}
-
-@keyframes startscreen_away_kf {
-    0% {
-        opacity: 1;
-    }
-    99% {
-        opacity: 0.0;
-    }
-    100% {
-        bottom: -100vw;
-    }
-}
-
-#scene {
-    width: 100vw;
-    height: 56.25vw;
-    position: relative;
-    overflow: hidden;
-}
-
-.scene1 {
-    background-image: url(baggrund1.jpg);
-    background-size: cover;
-    width: 100vw;
-    height: 56.25vw;
-    background-size: cover;
-}
-
-.scene2 {
-    background-image: url(baggrund2.png);
-    background-size: cover;
-    width: 100vw;
-    height: 56.25vw;
-}
-
-
-/*********** Objekter på værelse ***********/
-
-#taske {
-    background-image: url(objekter/objekt_taske.svg);
-    position: absolute;
-    width: 51vw;
-    height: 31.5vw;
-    animation: taske_kf 10s forwards 1;
-    left: 15%;
-    background-size: cover;
-}
-
-@keyframes taske_kf {
-    0% {
-        bottom: -35vw;
-    }
-    100% {
-        bottom: 0%;
-    }
-}
-
-#objekt1 {
-    background-image: url(objekter/objekt_bog.svg);
-    position: absolute;
-    width: 17.25vw;
-    height: 12vw;
-}
-
-.objekt1_start_pos {
-    background-size: 100%;
-    left: -30vw;
-    top: 40vw;
-}
-
-.objekt1_pos_room {
-    background-size: 100%;
-    left: 2vw;
-    top: 30vw;
-}
-
-.objekt1_pos_taske {
-    background-size: 60%;
-    background-repeat: no-repeat;
-    left: 31vw;
-    top: 40vw;
-    z-index: 5;
-}
-
-#objekt2 {
-    background-image: url(objekter/objekt_gum.svg);
-    position: absolute;
-    width: 6vw;
-    height: 6vw;
-}
-
-.objekt2_start_pos {
-    background-size: 100%;
-    left: -30vw;
-    top: 40vw;
-}
-
-.objekt2_pos_room {
-    background-size: 100%;
-    left: 3vw;
-    top: 40vw;
-}
-
-.objekt2_pos_taske {
-    background-size: 60%;
-    background-repeat: no-repeat;
-    left: 37vw;
-    top: 47vw;
-    z-index: 5;
-}
-
-#objekt3 {
-    background-image: url(objekter/objekt_iphone.svg);
-    position: absolute;
-    width: 6vw;
-    height: 6.25vw;
-}
-
-.objekt3_start_pos {
-    background-size: 100%;
-    left: -30vw;
-    top: 40vw;
-}
-
-.objekt3_pos_room {
-    background-size: 100%;
-    left: 93vw;
-    top: 3vw;
-}
-
-.objekt3_pos_taske {
-    background-size: 70%;
-    background-repeat: no-repeat;
-    left: 40vw;
-    top: 40vw;
-    z-index: 5;
-}
-
-#objekt4 {
-    background-image: url(objekter/objekt_penalhus.svg);
-    position: absolute;
-    width: 13vw;
-    height: 7vw;
-}
-
-.objekt4_start_pos {
-    background-size: 100%;
-    left: -30vw;
-    top: 40vw;
-}
-
-.objekt4_pos_room {
-    background-size: 100%;
-    left: 70vw;
-    top: 40vw;
-}
-
-.objekt4_pos_taske {
-    background-size: 70%;
-    background-repeat: no-repeat;
-    left: 40vw;
-    top: 46vw;
-    z-index: 5;
-}
-
-#objekt5 {
-    background-image: url(objekter/objekt_soda.svg);
-    position: absolute;
-    width: 6.2vw;
-    height: 6.25vw;
-}
-
-.objekt5_start_pos {
-    background-size: 100%;
-    left: -30vw;
-    top: 40vw;
-}
-
-.objekt5_pos_room {
-    background-size: 100%;
-    left: 2vw;
-    top: 35vw;
-}
-
-.objekt5_pos_taske {
-    background-size: 70%;
-    background-repeat: no-repeat;
-    left: 43vw;
-    top: 41vw;
-    z-index: 5;
-}
-
-#objekt6 {
-    background-image: url(objekter/objekt_sokker.svg);
-    position: absolute;
-    width: 11.4vw;
-    height: 13.2vw;
-}
-
-.objekt6_start_pos {
-    background-size: 100%;
-    left: -30vw;
-    top: 40vw;
-}
-
-.objekt6_pos_room {
-    background-size: 100%;
-    left: 60vw;
-    top: 30vw;
-}
-
-.objekt6_pos_taske {
-    background-size: 70%;
-    background-repeat: no-repeat;
-    left: 47vw;
-    top: 40vw;
-    z-index: 5;
-}
-
-@keyframes puls_kf {
-    0% {
-        transform: scale(1);
-    }
-    100% {
-        transform: scale(0.8);
-    }
-}
-
-
-/*********** TEKST ***********/
-
-#tekst {
-    position: absolute;
-    width: 30.63vw;
-    height: 56.25vw;
-    top: 0%;
-    right: 0%;
-}
-
-.intro1 {
-    background-image: url(tekst_bokse/intro1.svg);
-}
-
-#tekst1 {
-    position: absolute;
-    width: 30.63vw;
-    height: 11.25vw;
-    top: 0%;
-}
-
-#tekst2 {
-    position: absolute;
-    width: 30.63vw;
-    height: 11.25vw;
-    top: 20%;
-}
-
-#tekst3 {
-    position: absolute;
-    width: 30.63vw;
-    height: 11.25vw;
-    top: 40%;
-}
-
-#tekst4 {
-    position: absolute;
-    width: 30.63vw;
-    height: 11.25vw;
-    top: 60%;
-}
-
-#tekst5 {
-    position: absolute;
-    width: 30.63vw;
-    height: 11.25vw;
-    top: 80%;
-}
-
-.intro1 {
-    background-image: url(tekst_bokse/intro1.svg);
-    background-size: 90%;
-    background-repeat: no-repeat;
-    width: 30.63vw;
-    height: 11.81vw;
-}
-
-.intro2 {
-    background-image: url(tekst_bokse/intro2.svg);
-    background-size: 90%;
-    background-repeat: no-repeat;
-    width: 30.63vw;
-    height: 11.81vw;
-}
-
-.intro3 {
-    background-image: url(tekst_bokse/intro3.svg);
-    background-size: 90%;
-    background-repeat: no-repeat;
-    width: 30.63vw;
-    height: 11.81vw;
-}
-
-.intro4 {
-    background-image: url(tekst_bokse/intro4.svg);
-    background-size: 90%;
-    background-repeat: no-repeat;
-    width: 30.63vw;
-    height: 11.81vw;
-}
-
-.intro5 {
-    background-image: url(tekst_bokse/intro5.svg);
-    background-size: 90%;
-    background-repeat: no-repeat;
-    width: 30.63vw;
-    height: 11.81vw;
-}
-
-.intro6 {
-    background-image: url(tekst_bokse/intro6.svg);
-    background-size: 90%;
-    background-repeat: no-repeat;
-    width: 30.63vw;
-    height: 11.81vw;
-}
-
-.intro7 {
-    background-image: url(tekst_bokse/intro7.svg);
-    background-size: 90%;
-    background-repeat: no-repeat;
-    width: 30.63vw;
-    height: 11.81vw;
-}
-
-.instru1 {
-    background-image: url(tekst_bokse/instruk1.svg);
-    background-size: 90%;
-    background-repeat: no-repeat;
-    width: 30.63vw;
-    width: 30.63vw;
-    height: 11.81vw;
-}
-
-.instru2 {
-    background-image: url(tekst_bokse/instru2.svg);
-    background-size: 90%;
-    background-repeat: no-repeat;
-    width: 30.63vw;
-    height: 11.81vw;
-    animation: instru2_kf 4s both 1;
 }
 
 @keyframes instru2_kf {
@@ -974,7 +549,6 @@ body {
     background-repeat: no-repeat;
     width: 10.56vw !important;
     height: 5.69vw !important;
-    align-self: right;
 }
 
 .svarnej {
@@ -984,6 +558,3 @@ body {
     width: 10.56vw !important;
     height: 5.69vw !important;
 }
-
-
-/*********** ANDET ***********/

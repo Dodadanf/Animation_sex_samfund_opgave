@@ -89,18 +89,16 @@ function instruktioner3() {
     $("#scene").removeClass("scene1");
     $("#scene").addClass("scene2");
 
-    $("#tekst2").addClass("intro3");
-    $("#tekst3").addClass("instru3");
-    $("#tekst4").addClass("svarja");
-    $("#tekst5").addClass("svarnej");
-    $("#").on("", valgMedMuligheder1);
+    $("#tekst4").addClass("intro3");
+    //    $("#tekst3").addClass("instru3");
+    //    $("#tekst4").addClass("svarja");
+    //    $("#tekst5").addClass("svarnej");
+    //    $("#").on("", valgMedMuligheder1);
 
     $("#karakter1_container").addClass("karakter1_start_pos");
     $("#karakter2_container").addClass("karakter2_start_pos");
     $("#karakter3_container").addClass("karakter3_start_pos");
     $("#karakter4_container").addClass("karakter4_start_pos");
-
-    $("#tekst4").addClass("intro3");
 
     $("#tekst4").on("animationend", valgMedMuligheder1);
 
