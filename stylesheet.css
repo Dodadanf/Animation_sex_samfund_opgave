@@ -254,7 +254,6 @@ body {
     height: 37.5vw;
     background-image: url(karakter/ansigt_malik.svg);
     background-size: 400% 100%;
-    background-repeat: no-repeat;
 }
 
 .karakter1_start_pos {
@@ -263,15 +262,15 @@ body {
 }
 
 .karakter1_glad {
-    background-position: 200% 100%;
+    background-position: 300% 0%;
 }
 
 .karakter1_ad {
-    background-position: 300% 100%;
+    background-position: 200% 0%;
 }
 
 .karakter1_overrasket {
-    background-position: 400% 100%;
+    background-position: ;
 }
 
 /************ karakter 2 (marcus) ********/
@@ -279,6 +278,7 @@ body {
 #karakter2_container {
     position: absolute;
     z-index: 1;
+
 }
 
 #karakter2_sprite {
@@ -286,7 +286,6 @@ body {
     height: 37.7vw;
     background-image: url(karakter/ansigt_marcus.svg);
     background-size: 400% 100%;
-    background-repeat: no-repeat;
 }
 
 .karakter2_start_pos {
@@ -295,15 +294,15 @@ body {
 }
 
 .karakter2_glad {
-    background-position: 200% 100%;
+    background-position: 300% 0%;
 }
 
 .karakter2_ad {
-    background-position: 300% 100%;
+    background-position: 200% 0%;
 }
 
 .karakter2_overrasket {
-    background-position: 400% 100%;
+    background-position: ;
 }
 
 /************ karakter 3 (signe) ********/
@@ -311,6 +310,7 @@ body {
 #karakter3_container {
     position: absolute;
     z-index: 1;
+
 }
 
 #karakter3_sprite {
@@ -318,7 +318,6 @@ body {
     height: 37.7vw;
     background-image: url(karakter/ansigt_signe.svg);
     background-size: 400% 100%;
-    background-repeat: no-repeat;
     transform: scaleX(-1);
 }
 
@@ -328,15 +327,15 @@ body {
 }
 
 .karakter3_glad {
-    background-position: 200% 100%;
+    background-position: 300% 0%;
 }
 
 .karakter3_ad {
-    background-position: 300% 100%;
+    background-position: 200% 0%;
 }
 
 .karakter3_overrasket {
-    background-position: 400% 100%;
+    background-position: ;
 }
 
 /************ karakter 4 (eva) ********/
@@ -351,7 +350,6 @@ body {
     height: 37.5vw;
     background-image: url(karakter/eva_sprite.svg);
     background-size: 800% 200%;
-    background-repeat: no-repeat;
     transform: scaleX(-1);
 }
 
@@ -361,15 +359,15 @@ body {
 }
 
 .karakter4_glad {
-    background-position: 200% 100%;
+    background-position: -300% 0%;
 }
 
 .karakter4_ad {
-    background-position: 300% 100%;
+    background-position: -200% 0%;
 }
 
 .karakter4_overrasket {
-    background-position: 400% 100%;
+    background-position: ;
 }
 
 
