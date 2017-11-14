@@ -336,6 +336,7 @@ function instruktioner6() {
 
     $("#tekst3").addClass("intro6");
     $("#tekst4").addClass("instru6");
+
     //    Eva-animation + telefon ud af tasken
     //    Eva-animationend fører til valgUdenMuligheder
     $("#").on("animationend", valgUdenMuligheder);
