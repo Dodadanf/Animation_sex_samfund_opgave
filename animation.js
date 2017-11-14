@@ -203,11 +203,16 @@ function reaktion3() {
     $("#tekst3").removeClass("instru4");
     $("#ja2").removeClass("svarja");
     $("#nej2").removeClass("svarnej");
+
     $("#ja1").removeClass("svar_startpos");
     $("#ja3").removeClass("svar_startpos");
     $("#nej1").removeClass("svar_startpos");
     $("#nej3").removeClass("svar_startpos");
     $("#karakter2").on("animationend", instruktioner5);
+
+
+    setTimeout(instruktioner5, 2000);
+
 }
 
 function reaktion4() {
@@ -217,11 +222,16 @@ function reaktion4() {
     $("#tekst3").removeClass("instru4");
     $("#ja2").removeClass("svarja");
     $("#nej2").removeClass("svarnej");
+
     $("#ja1").removeClass("svar_startpos");
     $("#ja3").removeClass("svar_startpos");
     $("#nej1").removeClass("svar_startpos");
     $("#nej3").removeClass("svar_startpos");
     $("#karakter2").on("animationend", instruktioner5);
+
+
+    setTimeout(instruktioner5, 2000);
+
 }
 
 function instruktioner5() {
