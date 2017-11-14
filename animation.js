@@ -128,6 +128,10 @@ function reaktion1() {
     $("#tekst3").removeClass("instru3");
     $("#ja1").removeClass("svarja");
     $("#nej1").removeClass("svarnej");
+    $("#ja2").removeClass("svar_startpos");
+    $("#ja3").removeClass("svar_startpos");
+    $("#nej2").removeClass("svar_startpos");
+    $("#nej3").removeClass("svar_startpos");
 
     $("#karakter1_sprite").addClass("karakter1_glad");
     $("#karakter2_sprite").addClass("karakter2_glad");
@@ -145,6 +149,11 @@ function reaktion2() {
     $("#tekst3").removeClass("instru3");
     $("#ja1").removeClass("svarja");
     $("#nej1").removeClass("svarnej");
+    $("#ja2").removeClass("svar_startpos");
+    $("#ja3").removeClass("svar_startpos");
+    $("#nej2").removeClass("svar_startpos");
+    $("#nej3").removeClass("svar_startpos");
+
 
     $("#karakter1_sprite").addClass("karakter1_ad");
     $("#karakter2_sprite").addClass("karakter2_ad");
@@ -196,12 +205,22 @@ function reaktion3() {
     $("#ja2").removeClass("svarja");
     $("#nej2").removeClass("svarnej");
 
+<<<<<<< HEAD
     $("#karakter1_sprite").addClass("karakter1_glad");
     $("#karakter2_sprite").addClass("karakter2_glad");
     $("#karakter3_sprite").addClass("karakter3_glad");
     $("#karakter4_sprite").addClass("karakter4_glad");
+=======
+    $("#ja1").removeClass("svar_startpos");
+    $("#ja3").removeClass("svar_startpos");
+    $("#nej1").removeClass("svar_startpos");
+    $("#nej3").removeClass("svar_startpos");
+    $("#karakter2").on("animationend", instruktioner5);
+
+>>>>>>> origin/master
 
     setTimeout(instruktioner5, 2000);
+
 }
 
 function reaktion4() {
@@ -212,12 +231,22 @@ function reaktion4() {
     $("#ja2").removeClass("svarja");
     $("#nej2").removeClass("svarnej");
 
+<<<<<<< HEAD
     $("#karakter1_sprite").addClass("karakter1_ad");
     $("#karakter2_sprite").addClass("karakter2_ad");
     $("#karakter3_sprite").addClass("karakter3_ad");
     $("#karakter4_sprite").addClass("karakter4_ad");
+=======
+    $("#ja1").removeClass("svar_startpos");
+    $("#ja3").removeClass("svar_startpos");
+    $("#nej1").removeClass("svar_startpos");
+    $("#nej3").removeClass("svar_startpos");
+    $("#karakter2").on("animationend", instruktioner5);
+
+>>>>>>> origin/master
 
     setTimeout(instruktioner5, 2000);
+
 }
 
 function instruktioner5() {
@@ -250,6 +279,10 @@ function reaktion5() {
     $("#tekst3").removeClass("instru5");
     $("#ja3").removeClass("svarja");
     $("#nej3").removeClass("svarnej");
+    $("#ja2").removeClass("svar_startpos");
+    $("#ja1").removeClass("svar_startpos");
+    $("#nej2").removeClass("svar_startpos");
+    $("#nej1").removeClass("svar_startpos");
     $("#karakter3").on("animationend", instruktioner6);
 }
 
@@ -260,6 +293,10 @@ function reaktion6() {
     $("#tekst3").removeClass("instru5");
     $("#ja3").removeClass("svarja");
     $("#nej3").removeClass("svarnej");
+    $("#ja2").removeClass("svar_startpos");
+    $("#ja1").removeClass("svar_startpos");
+    $("#nej2").removeClass("svar_startpos");
+    $("#nej1").removeClass("svar_startpos");
     $("#karakter3").on("animationend", instruktioner6);
 }
 
