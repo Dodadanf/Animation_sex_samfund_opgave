@@ -39,28 +39,29 @@ function klikPaaObjekt() {
     $("#objekt5").addClass("objekt5_pos_room");
     $("#objekt6").addClass("objekt6_pos_room");
 
-
     $("#objekt1").on("click", instruktioner2);
-
-
+    /*$("#objekt2").on("click", instruktioner2);
+    $("#objekt3").on("click", instruktioner2);
+    $("#objekt4").on("click", instruktioner2);
+    $("#objekt5").on("click", instruktioner2);
+    $("#objekt6").on("click", instruktioner2);*/
 }
 
 
 function instruktioner2() {
-    //        $(this).hide(); Skal ikke være hide, men skift af class fra pos_room til pos_taske
-    //    antalObjekter++;
-    //
-    //    if (antalObjekter >= 5) {
-    //        console.log("tykket på 6 objekter");
-    //        instruktioner2();
-    //
-    //    } else {
-    //        console.log("klik på flere objekter");
-    //        klikPaaObjekt();
-    //    }
-    console.log("Objekter fundet og samlet");
+    //$(this).hide(); //Skal ikke være hide, men skift af class fra pos_room til pos_taske
+    //antalObjekter++;
+    //if (antalObjekter >= 6) {
+    //console.log("tykket på 6 objekter");
+    //instruktioner2();
 
-    $("#objekt1").off("click", instruktioner2);
+    //} else {
+    //  console.log("klik på flere objekter");
+    // klikPaaObjekt();
+    //}
+    //console.log("Objekter fundet og samlet");
+
+    //$("#objekt1").off("click", instruktioner2);
 
 
     $("#objekt1").removeClass("objekt1_pos_room");
@@ -195,6 +196,11 @@ function reaktion3() {
     $("#ja2").removeClass("svarja");
     $("#nej2").removeClass("svarnej");
 
+    $("#karakter1_sprite").addClass("karakter1_glad");
+    $("#karakter2_sprite").addClass("karakter2_glad");
+    $("#karakter3_sprite").addClass("karakter3_glad");
+    $("#karakter4_sprite").addClass("karakter4_glad");
+
     setTimeout(instruktioner5, 2000);
 }
 
@@ -205,6 +211,11 @@ function reaktion4() {
     $("#tekst3").removeClass("instru4");
     $("#ja2").removeClass("svarja");
     $("#nej2").removeClass("svarnej");
+
+    $("#karakter1_sprite").addClass("karakter1_ad");
+    $("#karakter2_sprite").addClass("karakter2_ad");
+    $("#karakter3_sprite").addClass("karakter3_ad");
+    $("#karakter4_sprite").addClass("karakter4_ad");
 
     setTimeout(instruktioner5, 2000);
 }
