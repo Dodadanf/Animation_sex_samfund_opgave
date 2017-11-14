@@ -205,19 +205,18 @@ function reaktion3() {
     $("#ja2").removeClass("svarja");
     $("#nej2").removeClass("svarnej");
 
-<<<<<<< HEAD
+
     $("#karakter1_sprite").addClass("karakter1_glad");
     $("#karakter2_sprite").addClass("karakter2_glad");
     $("#karakter3_sprite").addClass("karakter3_glad");
     $("#karakter4_sprite").addClass("karakter4_glad");
-=======
+
     $("#ja1").removeClass("svar_startpos");
     $("#ja3").removeClass("svar_startpos");
     $("#nej1").removeClass("svar_startpos");
     $("#nej3").removeClass("svar_startpos");
     $("#karakter2").on("animationend", instruktioner5);
 
->>>>>>> origin/master
 
     setTimeout(instruktioner5, 2000);
 
@@ -231,19 +230,15 @@ function reaktion4() {
     $("#ja2").removeClass("svarja");
     $("#nej2").removeClass("svarnej");
 
-<<<<<<< HEAD
     $("#karakter1_sprite").addClass("karakter1_ad");
     $("#karakter2_sprite").addClass("karakter2_ad");
     $("#karakter3_sprite").addClass("karakter3_ad");
     $("#karakter4_sprite").addClass("karakter4_ad");
-=======
+
     $("#ja1").removeClass("svar_startpos");
     $("#ja3").removeClass("svar_startpos");
     $("#nej1").removeClass("svar_startpos");
     $("#nej3").removeClass("svar_startpos");
-    $("#karakter2").on("animationend", instruktioner5);
-
->>>>>>> origin/master
 
     setTimeout(instruktioner5, 2000);
 
@@ -251,7 +246,17 @@ function reaktion4() {
 
 function instruktioner5() {
     console.log("Tanker om sure sokker");
-    $("#karakter2").off("animationend", instruktioner5);
+
+    $("#karakter1_sprite").removeClass("karakter1_glad");
+    $("#karakter2_sprite").removeClass("karakter2_glad");
+    $("#karakter3_sprite").removeClass("karakter3_glad");
+    $("#karakter4_sprite").removeClass("karakter4_glad");
+
+    $("#karakter1_sprite").removeClass("karakter1_ad");
+    $("#karakter2_sprite").removeClass("karakter2_ad");
+    $("#karakter3_sprite").removeClass("karakter3_ad");
+    $("#karakter4_sprite").removeClass("karakter4_ad");
+
     $("#tekst4").addClass("intro5");
     $("#tekst4").on("animationend", valgMedMuligheder3);
 }
@@ -260,6 +265,7 @@ function valgMedMuligheder3() {
     console.log("Tanker om at dele");
     $("#tekst4").off("", valgMedMuligheder3);
     $("#tekst4").removeClass("intro5");
+
     $("#tekst2").addClass("intro5");
     $("#tekst3").addClass("instru5");
     $("#ja3").addClass("svarja");
@@ -268,6 +274,7 @@ function valgMedMuligheder3() {
     $("#ja1").addClass("svar_startpos");
     $("#nej2").addClass("svar_startpos");
     $("#nej1").addClass("svar_startpos");
+
     $("#ja3").on("click", reaktion5);
     $("#nej3").on("click", reaktion6);
 }
@@ -283,7 +290,13 @@ function reaktion5() {
     $("#ja1").removeClass("svar_startpos");
     $("#nej2").removeClass("svar_startpos");
     $("#nej1").removeClass("svar_startpos");
-    $("#karakter3").on("animationend", instruktioner6);
+
+    $("#karakter1_sprite").addClass("karakter1_ad");
+    $("#karakter2_sprite").addClass("karakter2_ad");
+    $("#karakter3_sprite").addClass("karakter3_ad");
+    $("#karakter4_sprite").addClass("karakter4_ad");
+
+    setTimeout(instruktioner6, 2000);
 }
 
 function reaktion6() {
@@ -297,11 +310,28 @@ function reaktion6() {
     $("#ja1").removeClass("svar_startpos");
     $("#nej2").removeClass("svar_startpos");
     $("#nej1").removeClass("svar_startpos");
-    $("#karakter3").on("animationend", instruktioner6);
+
+    $("#karakter1_sprite").addClass("karakter1_glad");
+    $("#karakter2_sprite").addClass("karakter2_glad");
+    $("#karakter3_sprite").addClass("karakter3_glad");
+    $("#karakter4_sprite").addClass("karakter4_glad");
+
+    setTimeout(instruktioner6, 2000);
 }
 
 function instruktioner6() {
     console.log("Telefon bliver taget frem");
+
+    $("#karakter1_sprite").removeClass("karakter1_ad");
+    $("#karakter2_sprite").removeClass("karakter2_ad");
+    $("#karakter3_sprite").removeClass("karakter3_ad");
+    $("#karakter4_sprite").removeClass("karakter4_ad");
+
+    $("#karakter1_sprite").removeClass("karakter1_glad");
+    $("#karakter2_sprite").removeClass("karakter2_glad");
+    $("#karakter3_sprite").removeClass("karakter3_glad");
+    $("#karakter4_sprite").removeClass("karakter4_glad");
+
     $("#tekst3").addClass("intro6");
     $("#tekst4").addClass("instru6");
     $("#tekst3").on("animationend", valgUdenMuligheder);
