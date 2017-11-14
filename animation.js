@@ -194,7 +194,8 @@ function reaktion3() {
     $("#tekst3").removeClass("instru4");
     $("#ja2").removeClass("svarja");
     $("#nej2").removeClass("svarnej");
-    $("#karakter2").on("animationend", instruktioner5);
+
+    setTimeout(instruktioner5, 2000);
 }
 
 function reaktion4() {
@@ -204,7 +205,8 @@ function reaktion4() {
     $("#tekst3").removeClass("instru4");
     $("#ja2").removeClass("svarja");
     $("#nej2").removeClass("svarnej");
-    $("#karakter2").on("animationend", instruktioner5);
+
+    setTimeout(instruktioner5, 2000);
 }
 
 function instruktioner5() {
