@@ -273,12 +273,12 @@ body {
     background-position: ;
 }
 
+
 /************ karakter 2 (marcus) ********/
 
 #karakter2_container {
     position: absolute;
     z-index: 1;
-
 }
 
 #karakter2_sprite {
@@ -305,12 +305,12 @@ body {
     background-position: ;
 }
 
+
 /************ karakter 3 (signe) ********/
 
 #karakter3_container {
     position: absolute;
     z-index: 1;
-
 }
 
 #karakter3_sprite {
@@ -337,6 +337,7 @@ body {
 .karakter3_overrasket {
     background-position: ;
 }
+
 
 /************ karakter 4 (eva) ********/
 
@@ -369,7 +370,6 @@ body {
 .karakter4_overrasket {
     background-position: ;
 }
-
 
 
 /************** tekst ***************/
@@ -583,7 +583,7 @@ body {
     background-size: 90%;
     background-repeat: no-repeat;
     width: 30.63vw;
-    height: 11.81vw;
+    height: 30.62vw !important;
 }
 
 .svarja {
