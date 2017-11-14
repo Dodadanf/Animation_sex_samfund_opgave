@@ -268,7 +268,8 @@ function reaktion5() {
     $("#ja1").removeClass("svar_startpos");
     $("#nej2").removeClass("svar_startpos");
     $("#nej1").removeClass("svar_startpos");
-    $("#karakter3").on("animationend", instruktioner6);
+
+    setTimeout(instruktioner6, 2000)
 }
 
 function reaktion6() {
@@ -282,25 +283,27 @@ function reaktion6() {
     $("#ja1").removeClass("svar_startpos");
     $("#nej2").removeClass("svar_startpos");
     $("#nej1").removeClass("svar_startpos");
-    $("#karakter3").on("animationend", instruktioner6);
+
+    setTimeout(instruktioner6, 2000)
 }
 
 function instruktioner6() {
     console.log("Telefon bliver taget frem");
     $("#tekst3").addClass("intro6");
     $("#tekst4").addClass("instru6");
-    $("#tekst3").on("animationend", valgUdenMuligheder);
-
+    //    Eva-animation + telefon ud af tasken
+    //    Eva-animationend fører til valgUdenMuligheder
+    $("#").on("animationend", valgUdenMuligheder);
 }
 
 function valgUdenMuligheder() {
     console.log("Idiot tager uden samtykke");
-    $("#tekst3").off("animationend", valgUdenMuligheder);
+    $("#").off("animationend", valgUdenMuligheder);
     $("#tekst3").removeClass("intro6");
     $("#tekst4").removeClass("instru6");
-    $("#tekst3").addClass("intro7");
-    $("#tekst4").addClass("instru7");
-    $("#tekst4").on("click", outro);
+    $("#tekst2").addClass("intro7");
+    $("#tekst3").addClass("instru7");
+    $("#tekst3").on("click", outro);
 }
 
 //function instruktioner7() {
