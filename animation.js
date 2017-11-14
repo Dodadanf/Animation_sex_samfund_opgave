@@ -133,7 +133,7 @@ function reaktion1() {
     $("#karakter3_sprite").addClass("karakter3_glad");
     $("#karakter4_sprite").addClass("karakter4_glad");
 
-    $("#karakter1").on("animationend", instruktioner4);
+    setTimeout(instruktioner4, 2000);
 
 }
 
@@ -150,13 +150,24 @@ function reaktion2() {
     $("#karakter3_sprite").addClass("karakter3_ad");
     $("#karakter4_sprite").addClass("karakter4_ad");
 
-    $("#karakter1").on("animationend", instruktioner4);
+    setTimeout(instruktioner4, 2000);
 }
 
 function instruktioner4() {
     console.log("videre til taleboble fra kammerat");
-    $("#karakter1").off("animationend", instruktioner4);
+
     $("#tekst4").addClass("intro4");
+
+    $("#karakter1_sprite").removeClass("karakter1_glad");
+    $("#karakter2_sprite").removeClass("karakter2_glad");
+    $("#karakter3_sprite").removeClass("karakter3_glad");
+    $("#karakter4_sprite").removeClass("karakter4_glad");
+
+    $("#karakter1_sprite").removeClass("karakter1_ad");
+    $("#karakter2_sprite").removeClass("karakter2_ad");
+    $("#karakter3_sprite").removeClass("karakter3_ad");
+    $("#karakter4_sprite").removeClass("karakter4_ad");
+
     $("#tekst4").on("animationend", valgMedMuligheder2);
 }
 
