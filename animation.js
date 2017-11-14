@@ -1,7 +1,7 @@
 var antalObjekter = 0;
-
-
 $(window).on("load", instruktioner1);
+// var erDerKlikketPaaSeksObjekter = false;
+
 
 function instruktioner1() {
     console.log("Skærm med navn loades, navnet fader væk og introduktion dukker op");
@@ -15,7 +15,18 @@ function instruktioner1() {
     $("#objekt4").addClass("objekt4_start_pos");
     $("#objekt5").addClass("objekt5_start_pos");
     $("#objekt6").addClass("objekt6_start_pos");
-    $("#taske").on("animationend", klikPaaObjekt);
+    $("#taske").on("animationend", klikPaaObjektSetup);
+}
+
+function klikPaaObjektSetup() {
+
+    $("#objekt1").on("click", instruktioner2_objekt1);
+    $("#objekt2").on("click", instruktioner2_objekt2);
+    $("#objekt3").on("click", instruktioner2_objekt3);
+    $("#objekt4").on("click", instruktioner2_objekt4);
+    $("#objekt5").on("click", instruktioner2_objekt5);
+    $("#objekt6").on("click", instruktioner2_objekt6);
+    klikPaaObjekt();
 }
 
 function klikPaaObjekt() {
@@ -38,47 +49,88 @@ function klikPaaObjekt() {
     $("#objekt4").addClass("objekt4_pos_room");
     $("#objekt5").addClass("objekt5_pos_room");
     $("#objekt6").addClass("objekt6_pos_room");
+}
 
-    $("#objekt1").on("click", instruktioner2);
-    /*$("#objekt2").on("click", instruktioner2);
-    $("#objekt3").on("click", instruktioner2);
-    $("#objekt4").on("click", instruktioner2);
-    $("#objekt5").on("click", instruktioner2);
-    $("#objekt6").on("click", instruktioner2);*/
+function instruktioner2_objekt1() {
+    $("#objekt1").removeClass("objekt1_pos_room");
+    $("#objekt1").addClass("objekt1_pos_taske");
+
+    $("#objekt1").off("click", instruktioner2_objekt1);
+
+    antalObjekter++;
+    erDerKlikketPaaSeksObjekter();
+}
+
+function instruktioner2_objekt2() {
+    $("#objekt2").removeClass("objekt2_pos_room");
+    $("#objekt2").addClass("objekt2_pos_taske");
+
+    $("#objekt2").off("click", instruktioner2_objekt2);
+
+    antalObjekter++;
+    erDerKlikketPaaSeksObjekter();
+}
+
+function instruktioner2_objekt3() {
+    $("#objekt3").removeClass("objekt3_pos_room");
+    $("#objekt3").addClass("objekt3_pos_taske");
+
+    $("#objekt3").off("click", instruktioner2_objekt3);
+
+    antalObjekter++;
+    erDerKlikketPaaSeksObjekter();
+}
+
+function instruktioner2_objekt4() {
+    $("#objekt4").removeClass("objekt4_pos_room");
+    $("#objekt4").addClass("objekt4_pos_taske");
+
+    $("#objekt4").off("click", instruktioner2_objekt4);
+
+    antalObjekter++;
+    erDerKlikketPaaSeksObjekter();
+}
+
+function instruktioner2_objekt5() {
+    $("#objekt5").removeClass("objekt5_pos_room");
+    $("#objekt5").addClass("objekt5_pos_taske");
+
+    $("#objekt5").off("click", instruktioner2_objekt5);
+
+    antalObjekter++;
+    erDerKlikketPaaSeksObjekter();
+}
+
+function instruktioner2_objekt6() {
+    $("#objekt6").removeClass("objekt6_pos_room");
+    $("#objekt6").addClass("objekt6_pos_taske");
+
+    $("#objekt6").off("click", instruktioner2_objekt6);
+
+
+    antalObjekter++;
+    erDerKlikketPaaSeksObjekter();
 }
 
 
-function instruktioner2() {
-    //$(this).hide(); //Skal ikke være hide, men skift af class fra pos_room til pos_taske
-    //antalObjekter++;
-    //if (antalObjekter >= 6) {
-    //console.log("tykket på 6 objekter");
-    //instruktioner2();
+function erDerKlikketPaaSeksObjekter() {
+    if (antalObjekter >= 6) {
+        console.log("tykket på 6 objekter");
+        instruktioner3();
 
-    //} else {
-    //  console.log("klik på flere objekter");
-    // klikPaaObjekt();
-    //}
+    } else {
+        console.log("klik på flere objekter");
+        klikPaaObjekt();
+    }
+
+    //Skal ikke være hide, men skift af class fra pos_room til pos_taske
+    //antalObjekter++;
+
     //console.log("Objekter fundet og samlet");
 
     //$("#objekt1").off("click", instruktioner2);
 
-
-    $("#objekt1").removeClass("objekt1_pos_room");
-    $("#objekt2").removeClass("objekt2_pos_room");
-    $("#objekt3").removeClass("objekt3_pos_room");
-    $("#objekt4").removeClass("objekt4_pos_room");
-    $("#objekt5").removeClass("objekt5_pos_room");
-    $("#objekt6").removeClass("objekt6_pos_room");
-
-    $("#objekt1").addClass("objekt1_pos_taske");
-    $("#objekt2").addClass("objekt2_pos_taske");
-    $("#objekt3").addClass("objekt3_pos_taske");
-    $("#objekt4").addClass("objekt4_pos_taske");
-    $("#objekt5").addClass("objekt5_pos_taske");
-    $("#objekt6").addClass("objekt6_pos_taske");
-
-    $("#tekst5").addClass("instru2");
+    $("#tekst5").addClass("instruk2");
     $("#tekst5").on("animationend", instruktioner3);
 
 }
