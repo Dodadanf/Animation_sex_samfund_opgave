@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="490.5" height="149.656" viewBox="0 0 490.5 149.656">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00b9ff;
+        stroke: #000;
+        stroke-width: 2.5px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Taleboble" class="cls-1" d="M1429,608s-12.01,1.351-21-5c-0.39-.275-4.41,4.94-24,5-41.58.127-418,0-418,0s-25.15-2.368-25-30,0-92,0-92,1.323-24.925,28-25,423,0,423,0,25.53,1.085,26,22,1,112,1,112S1415.65,604.348,1429,608Z" transform="translate(-939.75 -459.719)"/>
+</svg>
