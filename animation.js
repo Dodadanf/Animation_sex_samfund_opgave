@@ -402,8 +402,8 @@ function instruktioner6() {
 
     //Eva skal løbe ud
     $("#karakter4_container").removeClass("karakter4_start_pos");
-    $("#karakter4_container").addclass("karakter4_container_move");
-    $("#karkater4_sprite").addclass("karakter4_walkcycle");
+    $("#karakter4_container").addClass("karakter4_container_move");
+    $("#karkater4_sprite").addClass("karakter4_walkcycle");
 
     $("#karakter4_sprite").on("animationend", valgUdenMuligheder);
     $("#lyd4")[0].pause();
