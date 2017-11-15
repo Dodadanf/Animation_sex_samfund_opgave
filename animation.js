@@ -388,10 +388,10 @@ function instruktioner6() {
 
     $("#tekst3").addClass("intro6");
     $("#tekst4").addClass("instru6");
-
-    //    Eva-animation + telefon ud af tasken
-    //    Eva-animationend fører til valgUdenMuligheder
-    $("#").on("animationend", valgUdenMuligheder);
+    //Eva skal løbe ud
+    $("#karkater4_sprite").addclass("")
+    //
+    $("#karakter4_sprite").on("animationend", valgUdenMuligheder);
 }
 
 function valgUdenMuligheder() {
@@ -401,15 +401,11 @@ function valgUdenMuligheder() {
     $("#tekst4").removeClass("instru6");
     $("#tekst2").addClass("intro7");
     $("#tekst3").addClass("instru7");
+
+    $("#objekt3").addClass("objekt3_start_pos");
+
     $("#tekst3").on("click", outro);
 }
-
-//function instruktioner7() {
-//    console.log("Idiot tager uden samtykke");
-//    $("#").off("", valgUdenMuligheder);
-//    $("#tekst6").on("click", outro);
-//
-//}
 
 function outro() {
     window.location.replace("https://privatsnak.dk");
