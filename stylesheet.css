@@ -355,17 +355,19 @@ body {
     z-index: 1;
 }
 
+
 #karakter4_sprite {
-    width: 18.75vw;
-    height: 37.5vw;
     background-image: url(karakter/eva_sprite.svg);
     background-size: 800% 200%;
-    transform: scaleX(-1);
+    width: 18.75vw;
+    height: 37.5vw;
+    position: absolute;
 }
 
 .karakter4_start_pos {
     top: 20vw;
     left: 12vw;
+    background-position: -100% 0;
 }
 
 .karakter4_glad {
@@ -376,8 +378,42 @@ body {
     background-position: -200% 0%;
 }
 
-.karakter4_overrasket {
-    background-position: ;
+.karakter4_iphone {
+    background-position: 0 0;
+}
+
+
+.karakter4_container_move {
+    animation-name: karakter4_container_move_kf;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+@keyframes karakter4_container_move_kf {
+    0% {
+        left: 12vw;
+    }
+    100% {
+        left: 100vw;
+    }
+}
+
+.karakter4_walkcycle {
+    animation-name: karakter4_walkcycle_kf;
+    animation-duration: 1s;
+    animation-timing-function: steps(8);
+    animation-iteration-count: infinite;
+}
+
+@keyframes karakter4_walkcycle_kf {
+    0% {
+        background-position: -800% 100%;
+    }
+    100% {
+        background-position: 0 100%;
+    }
 }
 
 

@@ -399,9 +399,12 @@ function instruktioner6() {
     $("#tekst4").addClass("instru6");
 
     $("#objekt3").addClass("objekt3_start_pos");
+
     //Eva skal løbe ud
-    $("#karkater4_sprite").addclass("")
-    //
+    $("#karakter4_container").removeClass("karakter4_start_pos");
+    $("#karakter4_container").addclass("karakter4_container_move");
+    $("#karkater4_sprite").addclass("karakter4_walkcycle");
+
     $("#karakter4_sprite").on("animationend", valgUdenMuligheder);
     $("#lyd4")[0].pause();
 }
