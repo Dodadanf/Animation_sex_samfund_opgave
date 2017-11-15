@@ -15,6 +15,7 @@ function instruktioner1() {
     $("#objekt4").addClass("objekt4_start_pos");
     $("#objekt5").addClass("objekt5_start_pos");
     $("#objekt6").addClass("objekt6_start_pos");
+    $("#lyd2")[0].play();
     $("#taske").on("animationend", klikPaaObjektSetup);
 }
 
@@ -54,7 +55,7 @@ function klikPaaObjekt() {
 function instruktioner2_objekt1() {
     $("#objekt1").removeClass("objekt1_pos_room");
     $("#objekt1").addClass("objekt1_pos_taske");
-
+    $("#lyd3")[0].play();
     $("#objekt1").off("click", instruktioner2_objekt1);
 
     antalObjekter++;
@@ -64,7 +65,7 @@ function instruktioner2_objekt1() {
 function instruktioner2_objekt2() {
     $("#objekt2").removeClass("objekt2_pos_room");
     $("#objekt2").addClass("objekt2_pos_taske");
-
+    $("#lyd3")[0].play();
     $("#objekt2").off("click", instruktioner2_objekt2);
 
     antalObjekter++;
@@ -74,7 +75,7 @@ function instruktioner2_objekt2() {
 function instruktioner2_objekt3() {
     $("#objekt3").removeClass("objekt3_pos_room");
     $("#objekt3").addClass("objekt3_pos_taske");
-
+    $("#lyd3")[0].play();
     $("#objekt3").off("click", instruktioner2_objekt3);
 
     antalObjekter++;
@@ -84,7 +85,7 @@ function instruktioner2_objekt3() {
 function instruktioner2_objekt4() {
     $("#objekt4").removeClass("objekt4_pos_room");
     $("#objekt4").addClass("objekt4_pos_taske");
-
+    $("#lyd3")[0].play();
     $("#objekt4").off("click", instruktioner2_objekt4);
 
     antalObjekter++;
@@ -94,7 +95,7 @@ function instruktioner2_objekt4() {
 function instruktioner2_objekt5() {
     $("#objekt5").removeClass("objekt5_pos_room");
     $("#objekt5").addClass("objekt5_pos_taske");
-
+    $("#lyd3")[0].play();
     $("#objekt5").off("click", instruktioner2_objekt5);
 
     antalObjekter++;
@@ -104,7 +105,7 @@ function instruktioner2_objekt5() {
 function instruktioner2_objekt6() {
     $("#objekt6").removeClass("objekt6_pos_room");
     $("#objekt6").addClass("objekt6_pos_taske");
-
+    $("#lyd3")[0].play();
     $("#objekt6").off("click", instruktioner2_objekt6);
 
 
@@ -153,6 +154,9 @@ function instruktioner3() {
     $("#karakter3_container").addClass("karakter3_start_pos");
     $("#karakter4_container").addClass("karakter4_start_pos");
 
+    $("#lyd2")[0].pause();
+    $("#lyd1")[0].play();
+
     $("#tekst4").on("animationend", valgMedMuligheder1);
 
 }
@@ -189,7 +193,8 @@ function reaktion1() {
     $("#karakter2_sprite").addClass("karakter2_glad");
     $("#karakter3_sprite").addClass("karakter3_glad");
     $("#karakter4_sprite").addClass("karakter4_glad");
-
+    $("#lyd3")[0].play();
+    $("#lyd4")[0].play();
     setTimeout(instruktioner4, 2000);
 
 }
@@ -211,7 +216,8 @@ function reaktion2() {
     $("#karakter2_sprite").addClass("karakter2_ad");
     $("#karakter3_sprite").addClass("karakter3_ad");
     $("#karakter4_sprite").addClass("karakter4_ad");
-
+    $("#lyd3")[0].play();
+    $("#lyd6")[0].play();
     setTimeout(instruktioner4, 2000);
 }
 
@@ -229,7 +235,7 @@ function instruktioner4() {
     $("#karakter2_sprite").removeClass("karakter2_ad");
     $("#karakter3_sprite").removeClass("karakter3_ad");
     $("#karakter4_sprite").removeClass("karakter4_ad");
-
+    $("#lyd4")[0].pause();
     $("#tekst4").on("animationend", valgMedMuligheder2);
 }
 
@@ -268,8 +274,8 @@ function reaktion3() {
     $("#nej1").removeClass("svar_startpos");
     $("#nej3").removeClass("svar_startpos");
     $("#karakter2").on("animationend", instruktioner5);
-
-
+    $("#lyd4")[0].play();
+    $("#lyd3")[0].play();
     setTimeout(instruktioner5, 2000);
 
 }
@@ -291,7 +297,8 @@ function reaktion4() {
     $("#ja3").removeClass("svar_startpos");
     $("#nej1").removeClass("svar_startpos");
     $("#nej3").removeClass("svar_startpos");
-
+    $("#lyd3")[0].play();
+    $("#lyd6")[0].play();
     setTimeout(instruktioner5, 2000);
 
 }
@@ -308,7 +315,7 @@ function instruktioner5() {
     $("#karakter2_sprite").removeClass("karakter2_ad");
     $("#karakter3_sprite").removeClass("karakter3_ad");
     $("#karakter4_sprite").removeClass("karakter4_ad");
-
+    $("#lyd4")[0].pause();
     $("#tekst4").addClass("intro5");
     $("#tekst4").on("animationend", valgMedMuligheder3);
 }
@@ -348,7 +355,8 @@ function reaktion5() {
     $("#karakter2_sprite").addClass("karakter2_ad");
     $("#karakter3_sprite").addClass("karakter3_ad");
     $("#karakter4_sprite").addClass("karakter4_ad");
-
+    $("#lyd5")[0].play();
+    $("#lyd3")[0].play();
     setTimeout(instruktioner6, 2000);
 
 }
@@ -369,7 +377,8 @@ function reaktion6() {
     $("#karakter2_sprite").addClass("karakter2_glad");
     $("#karakter3_sprite").addClass("karakter3_glad");
     $("#karakter4_sprite").addClass("karakter4_glad");
-
+    $("#lyd4")[0].play();
+    $("#lyd3")[0].play();
     setTimeout(instruktioner6, 2000);
 }
 
@@ -394,6 +403,7 @@ function instruktioner6() {
     $("#karkater4_sprite").addclass("")
     //
     $("#karakter4_sprite").on("animationend", valgUdenMuligheder);
+    $("#lyd4")[0].pause();
 }
 
 function valgUdenMuligheder() {
@@ -404,7 +414,7 @@ function valgUdenMuligheder() {
     $("#tekst2").addClass("intro7");
     $("#tekst3").addClass("instru7");
 
-
+    $("#lyd6")[0].play();
 
     $("#tekst3").on("click", outro);
 }
