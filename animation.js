@@ -427,5 +427,5 @@ function valgUdenMuligheder() {
 }
 
 function outro() {
-    window.location.replace("https://privatsnak.dk");
+    window.location.replace("http://privatsnak.dk");
 }
