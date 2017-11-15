@@ -357,7 +357,7 @@ body {
 
 
 #karakter4_sprite {
-    background-image: url(eva_sprite.svg);
+    background-image: url(karakter/eva_sprite.svg);
     background-size: 800% 200%;
     width: 18.75vw;
     height: 37.5vw;
@@ -367,7 +367,7 @@ body {
 .karakter4_start_pos {
     top: 20vw;
     left: 12vw;
-    background-position: -100% 0
+    background-position: -100% 0;
 }
 
 .karakter4_glad {
@@ -393,7 +393,7 @@ body {
 
 @keyframes karakter4_container_move_kf {
     0% {
-        left: 0;
+        left: 12vw;
     }
     100% {
         left: 100vw;
