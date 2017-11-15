@@ -353,8 +353,9 @@ body {
 #karakter4_container {
     position: absolute;
     z-index: 1;
+    width: 18.75vw;
+    height: 37.5vw;
 }
-
 
 #karakter4_sprite {
     background-image: url(karakter/eva_sprite.svg);
@@ -382,20 +383,20 @@ body {
     background-position: 0 0;
 }
 
-
 .karakter4_container_move {
     animation-name: karakter4_container_move_kf;
     animation-duration: 5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
     animation-timing-function: linear;
-
 }
 
 @keyframes karakter4_container_move_kf {
     0% {
+        top: 20vw;
         left: 12vw;
     }
     100% {
+        top: 20vw;
         left: 100vw;
     }
 }

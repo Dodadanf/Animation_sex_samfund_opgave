@@ -397,15 +397,16 @@ function instruktioner6() {
 
     $("#tekst3").addClass("intro6");
     $("#tekst4").addClass("instru6");
-
-    $("#objekt3").addClass("objekt3_start_pos");
+    $("#objekt3").removeClass("objekt3_pos_taske");
+    $("#objekt3").hide;
 
     //Eva skal løbe ud
     $("#karakter4_container").removeClass("karakter4_start_pos");
     $("#karakter4_container").addClass("karakter4_container_move");
+
     $("#karkater4_sprite").addClass("karakter4_walkcycle");
 
-    $("#karakter4_sprite").on("animationend", valgUdenMuligheder);
+    $("#karakter4_container").on("animationend", valgUdenMuligheder);
     $("#lyd4")[0].pause();
 }
 
