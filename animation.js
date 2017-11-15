@@ -388,6 +388,8 @@ function instruktioner6() {
 
     $("#tekst3").addClass("intro6");
     $("#tekst4").addClass("instru6");
+
+    $("#objekt3").addClass("objekt3_start_pos");
     //Eva skal løbe ud
     $("#karkater4_sprite").addclass("")
     //
@@ -402,7 +404,7 @@ function valgUdenMuligheder() {
     $("#tekst2").addClass("intro7");
     $("#tekst3").addClass("instru7");
 
-    $("#objekt3").addClass("objekt3_start_pos");
+
 
     $("#tekst3").on("click", outro);
 }
