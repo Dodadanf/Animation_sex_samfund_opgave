@@ -561,7 +561,6 @@ body {
     width: 30.63vw;
     height: 11.81vw;
     animation: instru2_kf 3s both 1;
-    z-index: 2;
 
 }
 
@@ -626,7 +625,6 @@ body {
     background-repeat: no-repeat;
     width: 30.63vw;
     height: 11.81vw;
-    z-index: 2;
 }
 
 .instru7 {
