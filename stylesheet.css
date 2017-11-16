@@ -460,6 +460,7 @@ body {
     width: 30.63vw;
     height: 11.25vw;
     top: 60%;
+    pointer-events: none;
 }
 
 #tekst5 {
