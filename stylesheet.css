@@ -51,10 +51,11 @@ body {
     position: absolute;
     width: 51vw;
     height: 31.5vw;
-    animation: taske_kf 10s forwards 1;
+    animation: taske_kf 7s forwards 1;
     left: 20%;
     z-index: 2;
     background-size: cover;
+    animation-timing-function: linear;
 }
 
 @keyframes taske_kf {
@@ -385,7 +386,7 @@ body {
 
 .karakter4_container_move {
     animation-name: karakter4_container_move_kf;
-    animation-duration: 5s;
+    animation-duration: 8s;
     animation-iteration-count: 1;
     animation-timing-function: linear;
 }
@@ -403,18 +404,19 @@ body {
 
 .karakter4_walkcycle {
     animation-name: karakter4_walkcycle_kf;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-timing-function: steps(8);
     animation-iteration-count: infinite;
 }
 
 @keyframes karakter4_walkcycle_kf {
     0% {
-        background-position: -800% 100%;
+        background-position: 0% -100%;
     }
     100% {
-        background-position: 0 100%;
+        background-position: -800% -100%;
     }
+
 }
 
 
@@ -559,6 +561,8 @@ body {
     width: 30.63vw;
     height: 11.81vw;
     animation: instru2_kf 3s both 1;
+    z-index: 2;
+
 }
 
 .intro7 {
@@ -622,6 +626,7 @@ body {
     background-repeat: no-repeat;
     width: 30.63vw;
     height: 11.81vw;
+    z-index: 2;
 }
 
 .instru7 {
