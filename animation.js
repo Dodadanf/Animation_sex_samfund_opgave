@@ -418,12 +418,19 @@ function instruktioner6() {
 function valgUdenMuligheder() {
     console.log("Idiot tager uden samtykke");
     $("#").off("animationend", valgUdenMuligheder);
+    $("#nej3").off("click", reaktion6);
+    $("#ja3").off("click", reaktion5);
+    $("#nej2").off("click", reaktion4);
+    $("#ja2").off("click", reaktion3);
+    $("#ja1").off("click", reaktion1);
+    $("#nej1").off("click", reaktion2);
+    $("#ja3").hide();
+    $("#ja2").hide();
+    $("#ja1").hide();
     $("#tekst3").removeClass("intro6");
     $("#tekst4").removeClass("instru6");
     $("#tekst2").addClass("intro7");
     $("#tekst3").addClass("instru7");
-    $("#tekst4").hide();
-    $("#tekst5").hide();
     $("#lyd6")[0].play();
 
     $("#tekst3").on("click", outro);
