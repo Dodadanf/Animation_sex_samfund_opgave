@@ -422,7 +422,8 @@ function valgUdenMuligheder() {
     $("#tekst4").removeClass("instru6");
     $("#tekst2").addClass("intro7");
     $("#tekst3").addClass("instru7");
-
+    $("#tekst4").hide();
+    $("#tekst5").hide();
     $("#lyd6")[0].play();
 
     $("#tekst3").on("click", outro);
